@@ -1,0 +1,27 @@
+var uu=M.var("url");
+if(uu.indexOf("www.meiju11.com")!=-1){
+var resp=M.http(JSON.stringify({url:uu,head:{'Referer':'https://www.meiju11.com'}}));
+var playurl=resp.match(/播放地址[\s\S]*?url.*?'(.*?)'/)[1];
+JSON.stringify({url:playurl});
+}else if(uu.indexOf("languang.wfss100")!=-1){
+var resp=M.http(JSON.stringify({url:uu}));
+var playurl=resp.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","https://img");
+JSON.stringify({url:playurl});
+}else if(uu.indexOf("mgtv.com.byteamone.cn")!=-1){
+var playurl=uu.split("url=")[1];
+JSON.stringify({url:playurl,headers:{"referer":"https://www.mgtv.com.byteamone.cn/","user-agent":"Mozilla/5.0"}});
+}else if(uu.indexOf("hjjjjhd.top")!=-1){
+var playurl=uu.split("url=")[1];
+JSON.stringify({url:playurl,headers:{"referer":uu}});
+}else if(uu.indexOf("jx.51wujin.net/analysis/json")!=-1||uu.indexOf("jx.cqzyw.net:8655/")!=-1||uu.indexOf("play.zk132.cn/m3u8.php")!=-1){
+var resp=M.http(JSON.stringify({url:uu}));
+var playurl=JSON.parse(resp).url;
+JSON.stringify({url:playurl});
+}else if(uu.indexOf("https://www.baidu.com/s?wd=")!=-1){
+var playurl=uu.split("wd=")[1];
+JSON.stringify({url:playurl});
+}else if(uu.indexOf(".m3u8")!=-1||uu.indexOf(".mp4")!=-1){
+JSON.stringify({url:uu});
+}else{
+"web="+uu;
+}

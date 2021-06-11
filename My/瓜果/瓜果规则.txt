@@ -1,0 +1,28 @@
+var res={};
+var items=[];
+var 列表=getVar("源码").match(/{"id".*?(},|}],)/g);
+var LIST=[];
+for(var j=0;j<列表.length;j++){
+    var 标题=e2Rex(列表[j],".json(title)");
+    var 地址=e2Rex(列表[j],".json(id)");
+    if(列表[j].indexOf("coverbase64")!=-1){
+         var imgurl=e2Rex(列表[j],".json(coverbase64).json(url)");
+         var imgtype=e2Rex(列表[j],".json(coverbase64).json(type)");
+         var 图片0=getHttp(JSON.stringify({url: imgurl}));
+         var 图片='data:'+e2Rex(列表[j],".json(coverbase64).json(type)")+";base64,"+e2Rex(图片0,".z(/9j/.*)");
+     }else{
+         var 图片=e2Rex(列表[j],".json(coverpath)");
+     }
+    var 图片底=e2Rex(列表[j],".json(auther_no)");
+    var 简介=e2Rex(列表[j],".json(authername)");
+    if(标题!=null){
+        LIST.push({title:标题,url:地址,img:图片,detail:简介,msg2:图片底});
+     }
+}
+var play_={};
+play_.list=LIST;
+items.push(play_);
+res.data=items;
+var 下一页=e2Rex(getVar("源码"),".json(rescont).json(next_page_url)");
+res.next=下一页;
+JSON.stringify(res);
