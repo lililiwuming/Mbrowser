@@ -1,6 +1,6 @@
 {"data":[
 {
-"title":"网页类 6.19更新:https://pasteme.cn/131572",
+"title":"网页类",
 "list":[
 {
 "title":"极品影视",
@@ -89,7 +89,7 @@
 },
 {
 "title":"侦探影视",
-"url":"http://yingshi.waruanzy.com/mogai_api.php/v1.vod/vodPhbAll",
+"url":"http://ys.huangguay.com/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhentanys.png"
 },
 {
@@ -116,6 +116,16 @@
 "title":"追剧吧影视",
 "url":"http://iapp.zhuiju8.vip/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhuiju8.png"
+},
+{
+"title":"1080P影视",
+"url":"http://1080p.tv/api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/1080PTV.png"
+},
+{
+"title":"飞捷影视",
+"url":"http://www.fj6080.com/api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/fj6080.png"
 },
 {
 "title":"氢视频",
