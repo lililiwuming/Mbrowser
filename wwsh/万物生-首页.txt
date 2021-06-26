@@ -128,6 +128,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/fj6080.png"
 },
 {
+"title":"快播吧",
+"url":"http://www.hd8.pw/api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/kuaibo8.png"
+},
+{
 "title":"氢视频",
 "url":"https://hmgdxf.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qingshipin.png"
@@ -161,6 +166,11 @@
 "title":"琳琅影院",
 "url":"https://www.u23c.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/linlang.png"
+},
+{
+"title":"海胆影院",
+"url":"http://xf123.cc/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/haidanys.png"
 },
 {
 "title":"聚多影视",
