@@ -52,19 +52,19 @@ if(标题=="xhzy"){
       var hash=选集地址.split("player/")[1];
       选集地址="https://www.baidu.com/s?wd=https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
 }else if(URL.indexOf("qbzyz.com")!=-1){
-      if(URL.indexOf("//")!=-1){
+      if(选集地址.indexOf("//")!=-1){
       选集地址="http:"+选集地址;
       }else{
       选集地址="http://parse.qbzyz.com/parse?resources="+选集地址;
       }
-}else if(标题=="mysp"||标题=="xmzy"){
+}else if(标题=="mysp"||标题=="xmzy"||标题=="myck"){
       选集地址="http://player.sxmj.wang/m3u8.php?url="+选集地址;
 }else if(标题=="mao"){
       选集地址="http://api.xkvideo.design/m3u8.php?url="+选集地址;
-}else if(标题=="4kdym"){
+}else if(标题=="4kdym"||标题=="8kvod"){
       选集地址="https://www.baidu.com/s?wd="+decodeURIComponent(选集地址);
 }else if(标题=="789pan"||标题=="pll"){
-      选集地址="http://api.cxitco.cn/api/?key=zFQTsLecKYd8g0yWNN&url="+选集地址;
+      选集地址="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+选集地址;
 }else if(标题=="lekanzyw"){
       选集地址="http://player.ojbkjx.com/?url="+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
@@ -91,6 +91,8 @@ if(标题=="xhzy"){
       选集地址="https://pl.tcc-interiors.com/hls/"+选集地址;
 }else if(标题=='SS'||标题=='hd720'||标题=='m3yun'){
       选集地址="https://www.baidu.com/s?wd="+选集地址;
+}else if(标题=='m3yun2'){
+      选集地址="https://jx.dxsdkw.cn/nv/"+选集地址+".m3u8";
 }
 //结束判断
 LIST.push({title:选集,url:选集地址});
