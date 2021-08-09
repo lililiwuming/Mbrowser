@@ -30,7 +30,7 @@ var 分类=getVar("源码").match(/<dd[\s\S]*?\/dd>/g);
 var res={};var items=[];
 for(var i=0;i<分类.length;i++){
 var 初列表=分类[i].match(/CDATA\[([\s\S]*?)[#]*?\]/)[1]+"#";
-var 列表=初列表.match(/[\S]*?#/g);
+var 列表=初列表.match(/.*?#/g);
 var 标题=e2Rex(分类[i],".a(flag)");
 var LIST=[];
 for(var j=0;j<列表.length;j++){
@@ -42,7 +42,7 @@ for(var j=0;j<列表.length;j++){
     }else{
     var 选集=j+1;
     }
-    var 选集地址=e2Rex(列表[j],".z2(\\\(http.*?\\\)[\\$|#]).or().z2(\\$\\\(.*?\\\)[$|&|#]).or().z(.*)");
+    var 选集地址=e2Rex(列表[j],".z2(\\(http.*?\\)[\\$|#]).or().z2(\\$\\(.*?\\)[$|&|#]).or().z(.*)");
 //开始根据网址，线路判断前缀
 if(标题=="xhzy"){
       选集地址=选集地址;
@@ -51,6 +51,10 @@ if(标题=="xhzy"){
 }else if(选集地址.indexOf(":6688/player")!=-1){
       var hash=选集地址.split("player/")[1];
       选集地址="https://www.baidu.com/s?wd=https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
+}else if(标题=="wolong"){
+      选集地址="https://jx.wolongcdn.com/?url="+选集地址;
+}else if(选集地址.indexOf(".m3u8")!=-1||选集地址.indexOf(".mp4")!=-1){
+      选集地址="https://www.baidu.com/s?wd="+选集地址;
 }else if(URL.indexOf("qbzyz.com")!=-1){
       if(选集地址.indexOf("//")!=-1){
       选集地址="http:"+选集地址;
@@ -60,13 +64,13 @@ if(标题=="xhzy"){
 }else if(标题=="mysp"||标题=="xmzy"||标题=="myck"){
       选集地址="http://player.sxmj.wang/m3u8.php?url="+选集地址;
 }else if(标题=="mao"){
-      选集地址="http://api.xkvideo.design/m3u8.php?url="+选集地址;
+      选集地址="http://www.moyuyingshi.com/player.php?url="+e2Rex(选集地址,".en64()").replace(/=/g,"");
 }else if(标题=="4kdym"||标题=="8kvod"){
       选集地址="https://www.baidu.com/s?wd="+decodeURIComponent(选集地址);
 }else if(标题=="789pan"||标题=="pll"){
-      选集地址="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+选集地址;
+      选集地址="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+选集地址;
 }else if(标题=="lekanzyw"){
-      选集地址="http://player.ojbkjx.com/?url="+选集地址;
+      选集地址="https://dd.ojbkjx.com/player4/m3u8.php?url=l"+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
       选集地址="https://jx.fqzy.cc/jx.php?url="+选集地址;
 }else if(选集地址.indexOf('wp.umao.vp6.top')!=-1){
