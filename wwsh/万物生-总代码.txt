@@ -216,7 +216,7 @@ var COOKIE="";
 var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA,"Cookie":COOKIE}}));
 if(uu.indexOf("cokemv.co")!=-1){
 var DATA=e2Rex(resp.code,".ty(player_aaaa=).json(url)");
-var playurl ='https://cokemv.co'+DATA;
+var playurl =DATA;
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("zxzj.me")!=-1){
 var DATA=e2Rex(resp.code,".ty(player_data=).json(url)");
@@ -370,6 +370,15 @@ for(var i=0;i<分类.length;i++){
     var 接口=e2Rex(分类CODE,".json(parse_api)");
     }else{
     var 接口=URL;
+    }
+    if(接口.indexOf("svip.jhyun.jx.cn:1234")!=-1){
+    if(标题.indexOf("人人")!=-1){
+        接口="http://jhdyw.vip/jiexi/rr.php?url=";
+    }else if(标题.indexOf("番茄")!=-1){
+        接口="http://jhdyw.vip/jiexi/fq.php?url=";
+    }else{
+        接口="http://jhdyw.vip/jiexi/?url=";
+    }
     }
     var LIST=[];
     for(var j=0;j<列表.length;j++){
