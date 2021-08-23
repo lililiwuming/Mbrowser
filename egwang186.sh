@@ -13,3 +13,4 @@ wget -O ./wwsh/万物生-单项列表.txt https://egwang186.coding.net/p/egwang1
 wget -O ./wwsh/万物生-免嗅探.txt https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/万物生-免嗅探.txt
 git add .
 git commit -m "up egwang186"
+git show
