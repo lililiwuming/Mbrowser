@@ -210,9 +210,6 @@ var uu=uu.replace("&down=200","");
 }else if(uu.indexOf("789pan.hd8.pw")!=-1){
 var id=uu.split("url=")[1];
 var uu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
-}else if(uu.indexOf("uid=1735&my=abghmpqtwBGIKLOW24&url=")!=-1){
-var id=uu.split("url=")[1];
-var uu="https://api.parwix.com:4433/analysis/json/?uid=1735&my=bfgnqrstuINQRWZ034&url="+id;
 }
 if(uu.indexOf("nfmovies.com")!=-1){
 var UA="Mozilla/5.0";
@@ -223,9 +220,9 @@ var COOKIE="";
 }
 var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA,"Cookie":COOKIE}}));
 if(uu.indexOf("cokemv.me")!=-1){
-var DATA=e2Rex(resp.code,".ty(player_aaaa=).json(url)");
-var playurl =DATA;
-JSON.stringify({url:playurl});
+var DATA=e2Rex(resp.code,".get(div.embed-responsive.clearfix script).t()");
+eval(DATA);
+JSON.stringify({url:player_aaaa.url+"&next="+player_aaaa.link_next,head:{"referer":uu,"user-agent":"Mozilla/5.0 Android"}});
 }else if(uu.indexOf("zxzj.me")!=-1){
 var DATA=e2Rex(resp.code,".ty(player_data=).json(url)");
 if(DATA.indexOf(".m3u8")!=-1||DATA.indexOf(".mp4")!=-1){
@@ -256,7 +253,12 @@ var script=e2Rex(resp.code,".get(div.embed-responsive.clearfix script).t()");
 eval(script);JSON.stringify({url:now,head:{"User-Agent":UA,"Referer":"https://www.nfmovies.com/js/player/m3u8.html"}});
 }else if(uu.indexOf("baidu.com")!=-1){
 var playurl=uu.split("wd=")[1];
-if(playurl.indexOf("www.ppzhu.vip")!=-1||playurl.indexOf("vip.19jx.vip/api/?type=app")!=-1||playurl.indexOf("42.51.48.17/?url=")!=-1){
+if(playurl.indexOf("duoduozy.com")!=-1){
+var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
+var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
+var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
+JSON.stringify({url:uuuu});
+}else if(playurl.indexOf("www.ppzhu.vip")!=-1||playurl.indexOf("vip.19jx.vip/api/?type=app")!=-1||playurl.indexOf("42.51.48.17/?url=")!=-1){
 if(playurl.indexOf("www.mgtv.com")!=-1){
 JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8",head:{"User-Agent":"Mozilla/5.0","Origin":"https://www.mgtv.com"}},{name:"mp4",url:playurl+"&_type=.mp4",head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.mgtv.com"}}]);
 }else{
@@ -358,7 +360,7 @@ for(var i=0;i<分类.length;i++){
        var PARSE2=e2Rex(分类CODE,".json(player_info).json(parse2)").split(",");
        var 总接口=PARSE.concat(PARSE2).filter(Boolean).filter(item => item.indexOf('=')!=-1);
        var 过滤规则=[
-/jx\.+huimaojia\.+com\/player/,/py\.+789pan\.+cn\/player\/tm\.php\?url=/,/ztys\.+waruanzy\.+com\/player\/\?url=/,/yingshi\.+waruanzy\.+com\/789pan\/\?url=/,/vip\.+parwix\.+com:4433\/player\/\?url=/,/api\.+cxitco\.+cn/,/\/vip\.+renrenmi.cc/,/yanbing\.+parwix\.+com:4433\/player/,/json\.+cantin\.+cc\/apijson\.php/,/ffdm\.+miaoletv\.+com\/\?url=/,/vip\.+sylwl\.+cn\/api\/\?key=/,/jx\.+dikotv\.+com\/\?url=/,/zly\.+xjqxz\.+top\/player\/\?url=/,/5znn\.+xyz\/m3u8\.+php/,/保佑/
+/jx\.+huimaojia\.+com\/player/,/py\.+789pan\.+cn\/player\/tm\.php\?url=/,/ztys\.+waruanzy\.+com\/player\/\?url=/,/yingshi\.+waruanzy\.+com\/789pan\/\?url=/,/vip\.+parwix\.+com:4433\/player\/\?url=/,/api\.+cxitco\.+cn/,/\/vip\.+renrenmi.cc/,/yanbing\.+parwix\.+com:4433\/player/,/json\.+cantin\.+cc\/apijson\.php/,/ffdm\.+miaoletv\.+com\/\?url=/,/vip\.+sylwl\.+cn\/api\/\?key=/,/jx\.+dikotv\.+com\/\?url=/,/zly\.+xjqxz\.+top\/player\/\?url=/,/5znn\.+xyz\/m3u8\.+php/,/uid=1735&my=/,/保佑/
 ];
        var 可用接口=总接口.filter(function (text) {return !过滤规则.some(function (regex) {return regex.test(text);});});
        if(JSON.stringify(可用接口).indexOf("=")!=-1){
