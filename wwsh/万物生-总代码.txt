@@ -282,7 +282,7 @@ var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
 JSON.stringify({url:uuuu});
-}else if(playurl.indexOf("www.ppzhu.vip")!=-1||playurl.indexOf("vip.19jx.vip/api/?type=app")!=-1||playurl.indexOf("42.51.48.17/?url=")!=-1){
+}else if(playurl.indexOf("www.ppzhu.vip")!=-1||playurl.indexOf("/api/?type=app")!=-1||playurl.indexOf("42.51.48.17/?url=")!=-1){
 if(playurl.indexOf("www.mgtv.com")!=-1){
 JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8",head:{"User-Agent":"Mozilla/5.0","Origin":"https://www.mgtv.com"}},{name:"mp4",url:playurl+"&_type=.mp4",head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.mgtv.com"}}]);
 }else{
@@ -378,7 +378,7 @@ for(var i=0;i<分类.length;i++){
     if(URL.indexOf("v1.vod")!=-1){
        var PARSE=e2Rex(分类CODE,".json(player_info).json(parse)").split(",");
        var PARSE2=e2Rex(分类CODE,".json(player_info).json(parse2)").split(",");
-       var 总接口=PARSE.concat(PARSE2).filter(Boolean).filter(item => item.indexOf('=')!=-1);
+       var 总接口=PARSE.concat(PARSE2).filter(item => item.search(/\/.+\?.+=/)!=-1);
        var 过滤规则=[
 /jx\.+huimaojia\.+com\/player/,/py\.+789pan\.+cn\/player\/tm\.php\?url=/,/ztys\.+waruanzy\.+com\/player\/\?url=/,/yingshi\.+waruanzy\.+com\/789pan\/\?url=/,/vip\.+parwix\.+com:4433\/player\/\?url=/,/api\.+cxitco\.+cn/,/\/vip\.+renrenmi.cc/,/yanbing\.+parwix\.+com:4433\/player/,/json\.+cantin\.+cc\/apijson\.php/,/ffdm\.+miaoletv\.+com\/\?url=/,/vip\.+sylwl\.+cn\/api\/\?key=/,/jx\.+dikotv\.+com\/\?url=/,/zly\.+xjqxz\.+top\/player\/\?url=/,/5znn\.+xyz\/m3u8\.+php/,/uid=1735&my=/,/api\.+xkvideo\.+design\/m3u8\.+php\?url=/,/保佑/
 ];
@@ -419,22 +419,26 @@ for(var i=0;i<分类.length;i++){
         var 选集=e2Rex(列表[j],选集规则);
         var 选集地址=e2Rex(列表[j],选集地址规则);
         if(URL.indexOf("xgapp.php/v1/")!=-1||URL.indexOf("api.php/app/")!=-1||URL.indexOf("v1.vod")!=-1){
-           if(选集地址.indexOf("42.51.48.17/?url=")!=-1||选集地址.indexOf(".m3u8")>20||选集地址.indexOf(".mp4")!=-1||选集地址.indexOf("/obj/tos")!=-1){
+           if(选集地址.indexOf(".m3u8")>20||选集地址.indexOf(".mp4")!=-1||选集地址.indexOf("/obj/tos")!=-1){
            var 选集地址="https://www.baidu.com/s?wd="+选集地址;
            }else{
-           var 选集地址=接口+选集地址;
+               if(接口.indexOf("/api/?type=app")!=-1||接口.indexOf("42.51.48.17/?url=")!=-1){
+               var 选集地址="https://www.baidu.com/s?wd="+接口+选集地址;
+               }else{
+               var 选集地址=接口+选集地址;
+               }
            }
         }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
          if(URL.indexOf("ppzhu.vip")!=-1){
            var 选集地址="https://www.baidu.com/s?wd="+选集地址+"&app=10003&account=272775028&password=qq272775028";
          }else{
-           if(选集地址.indexOf("vip.19jx.vip/api/?type=app")!=-1||选集地址.indexOf("42.51.48.17/?url=")!=-1||选集地址.indexOf(".m3u8")>20||选集地址.indexOf(".mp4")!=-1||选集地址.indexOf("/obj/tos")!=-1){
+           if(选集地址.indexOf("/api/?type=app")!=-1||选集地址.indexOf("42.51.48.17/?url=")!=-1||选集地址.indexOf(".m3u8")>20||选集地址.indexOf(".mp4")!=-1||选集地址.indexOf("/obj/tos")!=-1){
            var 选集地址="https://www.baidu.com/s?wd="+选集地址;
            }else if(选集地址.indexOf("=")==-1){
            var 选集地址="http://egwang186.gitee.io/?url="+选集地址;
            }else{
            var 选集地址=选集地址;
-          }
+           }
          }
         }else if(选集地址.indexOf("http")!=-1){
         var 选集地址=选集地址;
