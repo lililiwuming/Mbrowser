@@ -1,22 +1,24 @@
-var res={};
-var items=[];
-var 列表=getVar("源码").match(/{"id".*?(},|}],)/g);
-var LIST=[];
+js=var code=getCode();
+var host=getVar("url");
+var 列表=e2Arr(code,".json(rescont).json(data)");
+var res={};var items=[];var LIST=[];
 for(var j=0;j<列表.length;j++){
     var 标题=e2Rex(列表[j],".json(title)");
     var 地址=e2Rex(列表[j],".json(id)");
-    if(列表[j].indexOf("coverbase64")!=-1){
+    if(host.indexOf("klpqk.com")!=-1){
+         var 图片=e2Rex(列表[j],".json(coverpath)");
+     }else{
          var imgurl=e2Rex(列表[j],".json(coverbase64).json(url)");
          var imgtype=e2Rex(列表[j],".json(coverbase64).json(type)");
-         var 图片0=getHttp(JSON.stringify({url: imgurl}));
-         var 图片='data:'+e2Rex(列表[j],".json(coverbase64).json(type)")+";base64,"+e2Rex(图片0,".z(/9j/.*)");
-     }else{
-         var 图片=e2Rex(列表[j],".json(coverpath)");
+         var imgdata=getHttp(JSON.stringify({url: imgurl}));
+         var 图片='data:'+imgtype+";base64,/9j/"+e2Rex(imgdata,".ty(/9j/)");
      }
     var 图片底=e2Rex(列表[j],".json(auther_no)");
-    var 简介=e2Rex(列表[j],".json(authername)");
+    var 简介=e2Rex(列表[j],".json(created_at).c().json(authername)");
+    var 左文=e2Rex(列表[j],".json(playtimes)");
+    var 右文=e2Rex(列表[j],".json(pageviews)");
     if(标题!=null){
-        LIST.push({title:标题,url:地址,img:图片,detail:简介,msg2:图片底});
+        LIST.push({title:标题,url:地址,img:图片,msg:简介,msg2:图片底,zs:左文,ys:右文});
      }
 }
 var play_={};

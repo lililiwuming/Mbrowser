@@ -78,11 +78,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/meijuchong.png"
 },
 {
-"title":"孤单影院",
-"url":"http://hanmiys.com/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/hanmiys.png"
-},
-{
 "title":"剧迷TV",
 "url":"https://gimy.app/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jumi.png"
@@ -116,6 +111,11 @@
 "title":"糖果影视",
 "url":"https://tgys.tv/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/tgys.png"
+},
+{
+"title":"牛马TV",
+"url":"http://www.niumatv.com/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/niumatv.png"
 },
 {
 "title":"速搜影院",
@@ -174,7 +174,7 @@
 },
 {
 "title":"久久影视",
-"url":"https://www.jiujiukp.com/",
+"url":"https://www.jiujiukanju.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jiujiuyc.png"
 },
 {
@@ -338,6 +338,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xcys63.png"
 },
 {
+"title":"百讯视频",
+"url":"https://z.iopenyun.com:99/app_api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/iopenyun.png"
+},
+{
 "title":"大师兄影视",
 "url":"https://hou.lu/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
@@ -351,6 +356,11 @@
 "title":"5060影院",
 "url":"https://app.linzhiyuan.xyz/xgapp.php/v1/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/linzhiyuan.png"
+},
+{
+"title":"星空影视",
+"url":"https://xkys.tv/xgapp.php/v1/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xkys.png"
 },
 {
 "title":"嘀哩嘀哩影视",
