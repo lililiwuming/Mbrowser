@@ -117,8 +117,8 @@ if(标题=="xhzy"){
 }else if(选集地址.indexOf(":6688/player")!=-1){
       var hash=选集地址.split("player/")[1];
       选集地址="https://www.baidu.com/s?wd=https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
-}else if(标题=="wolong"){
-      选集地址="https://jx.wolongcdn.com/?url="+选集地址;
+}else if(URL.indexOf("api.yparse.com")!=-1){
+      选集地址="https://yparse.jn1.cc/index.php?url="+选集地址;
 }else if(标题.indexOf("rrm3u8")!=-1){
   选集地址="https://www.meiju11.com/ckplayerx/m3u8.php?url="+选集地址;
 }else if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
@@ -130,26 +130,33 @@ if(标题=="xhzy"){
       选集地址="http://parse.qbzyz.com/parse?resources="+选集地址;
       }
 }else if(标题=="mysp"||标题=="xmzy"||标题=="ttck"){
-      选集地址="http://player.sxmj.wang/m3u8.php?url="+选集地址;
+      选集地址="http://player.sxmj.wang/m3u8.php?url="+选集地址+'@{"Referer":"http://www.moyuyingshi.com"}';
 }else if(标题=="mao"){
       选集地址="http://app.sxmj.wang/player.php?url="+选集地址;
 }else if(标题=="4kdym"||标题=="8kvod"){
       选集地址="https://www.baidu.com/s?wd="+decodeURIComponent(选集地址);
 }else if(标题=="789pan"||标题=="pll"){
       选集地址="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+选集地址;
+}else if(标题=="zbkplayer"){
+      选集地址="http://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url="+选集地址;
 }else if(标题=="lekanzyw"){
-      选集地址="https://bfq.ikan6.vip/m3u8.php?url="+选集地址+'@{"Referer":"https://ikan6.vip/"}';
+      //选集地址="https://bfq.ikan6.vip/m3u8.php?url="+选集地址+'@{"Referer":"https://ikan6.vip/","User-Agent":"Mozilla/5.0 Android"}';
+      选集地址='https://play.ekvod.com/play/?url='+选集地址;
 }else if(标题.indexOf("miaoparty")!=-1){
-  选集地址="https://jiemi.jiexi.one/api/?key=zJQvr5baYHz7vpNSy9&url="+选集地址;
-}else if(标题.indexOf("mx771")!=-1){
-  选集地址="http://vip.mengx.vip/home/api?type=ys&uid=1797360&key=bjkluyzFGILNSWYZ16&url="+选集地址;
+  选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
+}else if(标题.indexOf("mx771")!=-1||标题.indexOf("mengxin886")!=-1){
+  选集地址="https://vip.mengx.vip/home/api?type=ys&uid=2117076&key=abghklvyDEIJLNT025&url="+选集地址;
+}else if(标题.indexOf("taiyi")!=-1){
+  选集地址="https://jx.cyu0.cn/?url="+选集地址;
+}else if(标题.indexOf("xfyun")!=-1){
+  选集地址="https://www.2692222.com/?url="+选集地址;
 }else if(标题=="renrenmi"){
       //选集地址="http://www.1080kan.cc/jiexi/rrmi.php?url="+选集地址+'@{"Referer":"http://www.1080kan.cc/"}';
       选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
       选集地址="https://jx.fqzy.cc/jx.php?url="+选集地址;
-}else if(选集地址.indexOf('wp.umao.vp6.top')!=-1){
-      选集地址="http://u.umao.vp6.top/?url="+选集地址.replace("wp.umao.vp6.top","umao.v.vp8.top");
+}else if(标题=='dym3'){
+      选集地址="https://www.baidu.com/s?wd=https://1.m3u8.shop/m3u8.php?url="+选集地址;
 }else if(标题=="rx"){
       选集地址="https://jx8.2692222.com/?url="+选集地址;
 }else if(标题=="dmplay"){
@@ -277,10 +284,23 @@ var UA="Mozilla/5.0";
 var COOKIE="";
 if(uu.indexOf("www.meiju11.com")!=-1){
 'web='+uu+'@{"Referer":"https://www.meiju11.com/"}';
-}else if(uu.indexOf("languang.wfss100")!=-1){
-var resp=getHttp(JSON.stringify({url:uu}));
-var playurl=resp.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","https://img");
-JSON.stringify({url:playurl});
+}else if(uu.indexOf("play.ekvod.com/play")!=-1){
+var resp=JZ(JSON.stringify({url:uu}));
+function v_decrypt(data,token_key,token_iv) {
+    return CryptoJS.AES.decrypt(data, token_key, {iv: token_iv}).toString(CryptoJS.enc.Utf8);
+    }
+    function getVideoInfo(url){
+    return v_decrypt(url,_token_key,_token_iv);
+    }
+    var bt_token=resp.code.match(/var le_token.+?"(.+?)"/)[1];
+var _token_key = CryptoJS.enc.Utf8.parse("OJBKYANGOJBKYANG");
+//定义IV偏移
+var _token_iv = CryptoJS.enc.Utf8.parse(bt_token);
+//定义IV偏移
+var key_token = CryptoJS.enc.Utf8.parse("G8ad2WUbKPaO55mx");
+var 加密链接=resp.code.match(/getVideoInfo.+?"(.+?)"/)[1];
+var realurl=getVideoInfo(加密链接);
+JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Origin":"https://play.ekvod.com","Referer":""}});
 }else if(uu.indexOf("mgtv.com.byteamone.cn")!=-1){
 var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,headers:{"referer":"","user-agent":"Mozilla/5.0"}});
@@ -292,6 +312,24 @@ var playurl=uu.split("wd=")[1];
 if(playurl.indexOf("http://1.117.152.239:39000/jiexi.php?url=")!=-1){
 var resp=JZ(JSON.stringify({url:playurl}));
 resp.code;
+}else if(playurl.indexOf("https://www.baidu.com")!=-1){
+//解密
+function v_decrypt(data,token_key,token_iv) {
+    return CryptoJS.AES.decrypt(data, token_key, {iv: token_iv}).toString(CryptoJS.enc.Utf8);
+}
+function getVideoInfo(url){
+    return v_decrypt(url,_token_key,_token_iv);
+}
+var resp=JZ(JSON.stringify({url:playurl}));
+var bt_token=resp.code.match(/var bt_token.+?"(.+?)"/)[1];
+var _token_key = CryptoJS.enc.Utf8.parse("977D6DECA2E9C7E6");
+//定义IV偏移
+var _token_iv = CryptoJS.enc.Utf8.parse(bt_token);
+//定义IV偏移
+var key_token = CryptoJS.enc.Utf8.parse("b9kfPepZc6mI7Ry7");
+var 加密链接=resp.code.match(/getVideoInfo.+?"(.+?)"/)[1];
+var realurl=getVideoInfo(加密链接);
+JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.juhaokan.cc/"}});
 }else if(playurl.indexOf("duoduozy.com")!=-1){
 var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));

@@ -16,7 +16,7 @@ var Newd = Arr.map(i => 总地址[i]);
 return Newd;
 }
 var 总标题=["0","电影","电视剧","综艺","动漫","5","动作片","喜剧片","爱情片","科幻片","10","恐怖片","剧情片","战争片","国产剧","15","港台剧","日韩剧","欧美剧","大陆剧","20","香港剧","台湾剧","日本剧","韩国剧","25","美国剧","泰国剧","国语配音韩剧","最近热播剧","30","热播美剧","抖音电影","福利短视频","豆瓣TOP","35","最新电影","欧美电影","韩国电影","脱口秀","40","真人秀","选秀","美食","旅游","45","访谈","纪实","搞笑","纪录片","50","台泰剧","海外剧","bilibili"];
-var 总地址=["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","1&class=&area=","2&class=&area=","3&class=&area=","40","4&class=&area=","1&class=动作&area=","1&class=喜剧&area=","1&class=爱情&area=","45","1&class=科幻&area=","1&class=恐怖&area=","1&class=剧情&area=","1&class=战争&area=","50","2&class=&area=内地","2&class=&area=香港","2&class=&area=台湾","2&class=&area=日本","55","2&class=&area=韩国","2&class=&area=美国","movie&start=&area=&type=","tvplay&start=&area=&type=","60","tvshow&start=&area=&type=","comic&start=&area=&type=","movie&start=&area=&type=动作","movie&start=&area=&type=喜剧","65","movie&start=&area=&type=爱情","movie&start=&area=&type=科幻","movie&start=&area=&type=恐怖","movie&start=&area=&type=剧情","70","movie&start=&area=&type=战争","tvplay&start=&area=内地&type=","tvplay&start=&area=香港&type=","tvplay&start=&area=台湾&type=","75","tvplay&start=&area=日本&type=","tvplay&start=&area=韩国&type=","tvplay&start=&area=美国&type=","dianying","80","lianxuju","zongyi","dongman","dongzuopian","85","xijupian","aiqingpian","kehuanpian","kongbupian","90","juqingpian","zhanzhengpian","guoyupeiyinhanju","zuijinrebodianshiju","95","rebomeiju","guochanju","gangtaiju","rihanju","100","oumeiju","SCCCCS","qCCCCS","xCCCCS","105","ICCCCS","SCCCCS/class/动作","SCCCCS/class/喜剧","SCCCCS/class/爱情","110","SCCCCS/class/科幻","SCCCCS/class/恐怖","SCCCCS/class/剧情","SCCCCS/class/战争","115","qCCCCS/area/内地","qCCCCS/area/香港","qCCCCS/area/台湾","qCCCCS/area/日本","120","qCCCCS/area/韩国","qCCCCS/area/美国","1/class/动作","1/class/喜剧","125","1/class/爱情","1/class/科幻","1/class/恐怖","1/class/剧情","130","1/class/战争","2/area/中国大陆","2/area/中国香港","2/area/中国台湾","135","2/area/日本","2/area/韩国","2/area/美国","dianying/class/动作","140","dianying/class/喜剧","dianying/class/爱情","dianying/class/科幻","dianying/class/恐怖","145","dianying/class/剧情","dianying/class/战争","lianxuju/area/大陆","lianxuju/area/香港","150","lianxuju/area/台湾","lianxuju/area/日本","lianxuju/area/韩国","lianxuju/area/美国","155","48"];
+var 总地址=["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","1&class=&area=","2&class=&area=","3&class=&area=","40","4&class=&area=","1&class=动作&area=","1&class=喜剧&area=","1&class=爱情&area=","45","1&class=科幻&area=","1&class=恐怖&area=","1&class=剧情&area=","1&class=战争&area=","50","2&class=&area=中国大陆","2&class=&area=香港","2&class=&area=台湾","2&class=&area=日本","55","2&class=&area=韩国","2&class=&area=美国","movie&start=&area=&type=","tvplay&start=&area=&type=","60","tvshow&start=&area=&type=","comic&start=&area=&type=","movie&start=&area=&type=动作","movie&start=&area=&type=喜剧","65","movie&start=&area=&type=爱情","movie&start=&area=&type=科幻","movie&start=&area=&type=恐怖","movie&start=&area=&type=剧情","70","movie&start=&area=&type=战争","tvplay&start=&area=内地&type=","tvplay&start=&area=香港&type=","tvplay&start=&area=台湾&type=","75","tvplay&start=&area=日本&type=","tvplay&start=&area=韩国&type=","tvplay&start=&area=美国&type=","dianying","80","lianxuju","zongyi","dongman","dongzuopian","85","xijupian","aiqingpian","kehuanpian","kongbupian","90","juqingpian","zhanzhengpian","guoyupeiyinhanju","zuijinrebodianshiju","95","rebomeiju","guochanju","gangtaiju","rihanju","100","oumeiju","SCCCCS","qCCCCS","xCCCCS","105","ICCCCS","SCCCCS/class/动作","SCCCCS/class/喜剧","SCCCCS/class/爱情","110","SCCCCS/class/科幻","SCCCCS/class/恐怖","SCCCCS/class/剧情","SCCCCS/class/战争","115","qCCCCS/area/内地","qCCCCS/area/香港","qCCCCS/area/台湾","qCCCCS/area/日本","120","qCCCCS/area/韩国","qCCCCS/area/美国","1/class/动作","1/class/喜剧","125","1/class/爱情","1/class/科幻","1/class/恐怖","1/class/剧情","130","1/class/战争","2/area/中国大陆","2/area/中国香港","2/area/中国台湾","135","2/area/日本","2/area/韩国","2/area/美国","dianying/class/动作","140","dianying/class/喜剧","dianying/class/爱情","dianying/class/科幻","dianying/class/恐怖","145","dianying/class/剧情","dianying/class/战争","lianxuju/area/大陆","lianxuju/area/香港","150","lianxuju/area/台湾","lianxuju/area/日本","lianxuju/area/韩国","lianxuju/area/美国","155","48"];
 var 标题1=TB(1,2,3,4,6,7,8,9,11,12,13,14,16,17,18);
 var 地址1=TT(1,2,3,4,6,7,8,9,10,11,12,13,14,15,16);
 var 标题2=TB(1,2,3,4,6,7,8,9,11,12,13,19,21,22,23,24,26);
@@ -65,8 +65,12 @@ var 标题=标题1;var 地址=地址1;var 前="/vodshow/";var 后="/page/#PN#/";
 var 标题=标题1;var 地址=地址1;var 前="/vodshow/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("moyuyingshi.com")!=-1){
 var 标题=标题41;var 地址=地址41;var 前="/vodtype/";var 后="-#PN#/";头部导航();
-}else if(URL.indexOf("ikan6.vip")!=-1||URL.indexOf("nkvob.com")!=-1){
-var 标题=标题1;var 地址=地址1;var 前="/vodtype/";var 后="-#PN#/";头部导航();
+}else if(URL.indexOf("nkvob.com")!=-1){
+var 标题=标题1;var 地址=地址1;var 前="/type/";var 后="-#PN#/";头部导航();
+}else if(URL.indexOf("1080mi.com")!=-1){
+var 标题=标题1;var 地址=地址1;var 前="/v_type/";var 后="-#PN#.html";头部导航();
+}else if(URL.indexOf("kkju.cc")!=-1){
+var 标题=["电影","樱花动漫","综艺秀","国产剧","港台剧","韩剧","日剧","美剧"];var 地址=["1","4","3","13","14","15","28","16"];var 前="/type/";var 后="-#PN#/";头部导航();
 }else if(URL.indexOf("gimy.app")!=-1){
 var 标题=TB(1,2,3,4,6,7,8,9,11,12,13,19,21,22,23,24,26,52,49);var 地址=TT(1,2,3,4,6,7,8,9,10,11,12,13,14,22,15,23,16,24,20);var 前="/type/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("jiujiukanju.com")!=-1){
@@ -83,7 +87,7 @@ var 标题=TB(1,2,3,4,6,7,8,9,11,12,13,14,16,17,18,33);var 地址=TT(1,2,3,4,6,7
 var 标题=TB(1,2,3,4,6,7,8,9,11,12,13,19,21,22,23,24,26,53);var 地址=TT(1,2,3,4,123,124,126,127,128,129,131,132,133,134,136,137,138,156);var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("zhenbuka3.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vodtype/";var 后="-#PN#/";头部导航();
-}else if(URL.indexOf("yingkuya.com")!=-1){
+}else if(URL.indexOf("yingkuya.com")!=-1||URL.indexOf("ekvod.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vodshow/";var 后="--------#PN#---/";头部导航();
 }else if(URL.indexOf("meijuchong.com")!=-1){
 var 标题=TB(18,17,52,1);var 地址=TT(1,2,3,4);var 前="/vodtype/";var 后="-#PN#/";头部导航();
@@ -93,7 +97,7 @@ var 标题=["电影","欧美剧","日韩剧","动漫"];var 地址=["mov","omtv",
 var 标题=TB(1,2,4,6,7,8,9,11,12,13,19,21,22,23,24,26,39,41,42,43,44,46,47,48);
 var 地址=TT(1,2,4,9,6,7,10,8,15,11,20,21,26,24,22,23,28,29,30,31,32,34,35,36);
 var 前="/list/";var 后="-#PN#.html";头部导航();
-}else if(URL.indexOf("zxzj.me")!=-1){
+}else if(URL.indexOf("zxzj.fun")!=-1){
 var 标题=TB(1,26,23,24,27,4);
 var 地址=TT(1,2,4,3,5,6);var 前="/list/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("auete.com")!=-1){
@@ -202,14 +206,14 @@ res.nextpage=getVar("前")+NEXTPAGE+getVar("后");
 }
 return JSON.stringify(res);
 }
-if(URL.indexOf("duboku.fun")!=-1||URL.indexOf("ikan6.vip")!=-1||URL.indexOf("cokemv.me")!=-1||URL.indexOf("447k.com")!=-1||URL.indexOf("tvyb02.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("zhenbuka3.com")!=-1||URL.indexOf("bukaivip.com")!=-1||URL.indexOf("flvweb.com")!=-1||URL.indexOf("9ehao.com")!=-1||URL.indexOf("dijiaxia.com")!=-1||URL.indexOf("unss.net")!=-1||URL.indexOf("nfmovies.com")!=-1||URL.indexOf("hanmiys.com")!=-1||URL.indexOf("cvcv.tv")!=-1||URL.indexOf("gimy.app")!=-1||URL.indexOf("30dian.cn")!=-1){
+if(URL.indexOf("duboku.fun")!=-1||URL.indexOf("ikan6.vip")!=-1||URL.indexOf("cokemv.me")!=-1||URL.indexOf("447k.com")!=-1||URL.indexOf("tvyb02.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("zhenbuka3.com")!=-1||URL.indexOf("bukaivip.com")!=-1||URL.indexOf("flvweb.com")!=-1||URL.indexOf("9ehao.com")!=-1||URL.indexOf("dijiaxia.com")!=-1||URL.indexOf("unss.net")!=-1||URL.indexOf("nfmovies.com")!=-1||URL.indexOf("hanmiys.com")!=-1||URL.indexOf("cvcv.tv")!=-1||URL.indexOf("gimy.app")!=-1||URL.indexOf("30dian.cn")!=-1||URL.indexOf("meijuchong.com")!=-1){
     if(URL.indexOf("gimy.app")!=-1){
     var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-3 col-xs-4])");
     }else{
     var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-4 col-xs-3])");
     }
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";单项列表();
-}else if(URL.indexOf("cms.7a11l.cn")!=-1||URL.indexOf("vdxj.net")!=-1||URL.indexOf("jiujiukanju.com")!=-1||URL.indexOf("nkvob.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("dcds.ml")!=-1||URL.indexOf("longtengzy.cn")!=-1||URL.indexOf("msdv.cn")!=-1||URL.indexOf("dd520.cc")!=-1||URL.indexOf("meijuchong.com")!=-1){
+}else if(URL.indexOf("cms.7a11l.cn")!=-1||URL.indexOf("vdxj.net")!=-1||URL.indexOf("jiujiukanju.com")!=-1||URL.indexOf("nkvob.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("dcds.ml")!=-1||URL.indexOf("longtengzy.cn")!=-1||URL.indexOf("msdv.cn")!=-1||URL.indexOf("dd520.cc")!=-1||URL.indexOf("1080mi.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(div.module-item)");
 var 标题规则=".get(div.video-name a).t()";var 地址规则=".get(div.video-name a).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".get(div.module-item-text).t().c().get(span).st().t()";
 单项列表();
@@ -249,9 +253,9 @@ var 标题规则=".get(h3 a).t()";var 地址规则=".get(h3 a).a(href)";var 图�
 }else if(URL.indexOf("niumatv.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(div.lists-content li)");
 var 标题规则=".get(h2 a).t()";var 地址规则=".get(h2 a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";单项列表();
-}else if(URL.indexOf("zxzj.me")!=-1){
+}else if(URL.indexOf("zxzj.fun")!=-1||URL.indexOf("ekvod.com")!=-1||URL.indexOf("kkju.cc")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");
-var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";单项列表();
+var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";单项列表();
 }else if(URL.indexOf("auete.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(ul.threadlist li)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(button).st().t().c().get(p).t()";单项列表();
@@ -294,7 +298,7 @@ if(uu.indexOf("1080kan.cc/jiexi/")!=-1){
     var DATA=e2Rex(resp.code,".get(div.embed-responsive.clearfix script).t()");
     eval(DATA);
     JSON.stringify({url:player_aaaa.url,head:{"user-agent":"Mozilla/5.0"}});
-}else if(uu.indexOf("zxzj.me")!=-1){
+}else if(uu.indexOf("zxzj.fun")!=-1){
 var DATA=e2Rex(resp.code,".ty(player_data=).json(url)");
 if(DATA.indexOf(".m3u8")!=-1||DATA.indexOf(".mp4")!=-1){
 JSON.stringify({url:DATA});
@@ -318,7 +322,11 @@ if(resp.code.indexOf("<iframe")!=-1){
     "web="+uu;
     }else{
     var playurl=e2Rex(JZ(JSON.stringify({url:uuu})).code,".z2(sources:[\\s\\S]*?'\\(.*?\\)')");
+    if(playurl.indexOf(".mp4")!=-1){
+        JSON.stringify({name:"mp4",url:playurl});
+    }else{
     JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"?_type=.m3u8"},{name:"mp4",url:playurl+"?_type=.mp4"}]);
+    }
     }
 }else{
 "web="+uu;
@@ -341,6 +349,32 @@ if(player_aaaa.url.indexOf(".m3u8")>20||player_aaaa.url.indexOf(".mp4")>20){
 JSON.stringify({url:player_aaaa.url,head:{"referer":"https://jxplayer.4kcz.com/","user-agent":"Mozilla/5.0"}});
 }else{
 "web="+uu;
+}
+}else if(uu.indexOf("ekvod.com")!=-1){
+var script=e2Rex(resp.code,".get(div.stui-player__video.embed-responsive script).t()");
+eval(script);
+if(player_aaaa.from=='lekanzyw'){
+    var id=e2Rex(player_aaaa.url,".dn64().dn(utf8)");
+    var resp=JZ(JSON.stringify({url:'https://play.ekvod.com/play/?url='+id}));
+    function v_decrypt(data,token_key,token_iv) {
+    return CryptoJS.AES.decrypt(data, token_key, {iv: token_iv}).toString(CryptoJS.enc.Utf8);
+    }
+    function getVideoInfo(url){
+    return v_decrypt(url,_token_key,_token_iv);
+    }
+    var bt_token=resp.code.match(/var le_token.+?"(.+?)"/)[1];
+var _token_key = CryptoJS.enc.Utf8.parse("OJBKYANGOJBKYANG");
+//定义IV偏移
+var _token_iv = CryptoJS.enc.Utf8.parse(bt_token);
+//定义IV偏移
+var key_token = CryptoJS.enc.Utf8.parse("G8ad2WUbKPaO55mx");
+var 加密链接=resp.code.match(/getVideoInfo.+?"(.+?)"/)[1];
+var realurl=getVideoInfo(加密链接);
+var resp2=JZ(JSON.stringify({url:realurl,redirect:false}));
+var finalurl=resp2.head.location;
+JSON.stringify({url:finalurl,head:{"User-Agent":"Mozilla/5.0","Origin":"https://play.ekvod.com","Referer":""}});
+}else{
+    "web="+uu;
 }
 }else if(uu.indexOf("tgys.tv")!=-1){
 var script=e2Rex(resp.code,".get(div.player_video.embed-responsive script).t()");
@@ -382,7 +416,12 @@ if(now.indexOf("9yun")!=-1){
     "web="+uu;
 }
 }else{
-JSON.stringify({url:now,head:{"referer":"https://auete.com/js/player/i8i.html","user-agent":"Mozilla/5.0"}});
+    if(now.indexOf("http")!=-1){
+    JSON.stringify({url:now,head:{"referer":"https://auete.com/js/player/i8i.html","user-agent":"Mozilla/5.0"}});
+    }else{
+    JSON.stringify({url:"https://auete.com"+now,head:{"referer":"https://auete.com/js/player/i8i.html","user-agent":"Mozilla/5.0"}});
+    }
+
 }
 }else if(uu.indexOf("nfmovies.com")!=-1){
 var script=e2Rex(resp.code,".get(div.embed-responsive.clearfix script).t()");
@@ -508,7 +547,7 @@ for(var i=0;i<分类.length;i++){
        var PARSE2=e2Rex(分类CODE,".json(player_info).json(parse2)").split(",");
        var 总接口=PARSE.concat(PARSE2).filter(item => item.search(/\/.+\?.+=/)!=-1);
        var 过滤规则=[
-/jx\.+huimaojia\.+com\/player/,/py\.+789pan\.+cn\/player\/tm\.php\?url=/,/ztys\.+waruanzy\.+com\/player\/\?url=/,/yingshi\.+waruanzy\.+com\/789pan\/\?url=/,/vip\.+parwix\.+com:4433\/player\/\?url=/,/api\.+cxitco\.+cn/,/\/vip\.+renrenmi.cc/,/yanbing\.+parwix\.+com:4433\/player/,/json\.+cantin\.+cc\/apijson\.php/,/ffdm\.+miaoletv\.+com\/\?url=/,/vip\.+sylwl\.+cn\/api\/\?key=/,/jx\.+dikotv\.+com\/\?url=/,/zly\.+xjqxz\.+top\/player\/\?url=/,/5znn\.+xyz\/m3u8\.+php/,/uid=1735&my=/,/api\.+iopenyun\.+com:88\/vip\/\?url=/,/api\.+xkvideo\.+design\/m3u8\.+php\?url=/,/play\.+szbodankyy\.+com\/xxoocnmb/,/vip\.+fj6080\.+xyz\/player\/\?url=/,/保佑/
+/jx\.+huimaojia\.+com\/player/,/py\.+789pan\.+cn\/player\/tm\.php\?url=/,/ztys\.+waruanzy\.+com\/player\/\?url=/,/yingshi\.+waruanzy\.+com\/789pan\/\?url=/,/vip\.+parwix\.+com:4433\/player\/\?url=/,/api\.+cxitco\.+cn/,/\/vip\.+renrenmi.cc/,/yanbing\.+parwix\.+com:4433\/player/,/json\.+cantin\.+cc\/apijson\.php/,/ffdm\.+miaoletv\.+com\/\?url=/,/vip\.+sylwl\.+cn\/api\/\?key=/,/jx\.+dikotv\.+com\/\?url=/,/zly\.+xjqxz\.+top\/player\/\?url=/,/5znn\.+xyz\/m3u8\.+php/,/uid=1735&my=/,/api\.+iopenyun\.+com:88\/vip\/\?url=/,/api\.+xkvideo\.+design\/m3u8\.+php\?url=/,/play\.+szbodankyy\.+com\/xxoocnmb/,/vip\.+fj6080\.+xyz\/player\/\?url=/,/a\.+dxzj88\.+com\/jiexi/,/host\.+q-q\.+wang\/api/,/保佑/
 ];
        var 可用接口=总接口.filter(function (text) {return !过滤规则.some(function (regex) {return regex.test(text);});});
        if(JSON.stringify(可用接口).indexOf("=")!=-1){
@@ -586,7 +625,7 @@ res.data=items;
 res.desc=detail;
 return JSON.stringify(res);
 }
-if(URL.indexOf("duboku.fun")!=-1||URL.indexOf("ikan6.vip")!=-1||URL.indexOf("447k.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("cokemv.me")!=-1||URL.indexOf("9ehao.com")!=-1||URL.indexOf("dijiaxia.com")!=-1||URL.indexOf("unss.net")!=-1||URL.indexOf("nfmovies.com")!=-1||URL.indexOf("hanmiys.com")!=-1||URL.indexOf("cvcv.tv")!=-1||URL.indexOf("30dian.cn")!=-1){
+if(URL.indexOf("duboku.fun")!=-1||URL.indexOf("ikan6.vip")!=-1||URL.indexOf("447k.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("cokemv.me")!=-1||URL.indexOf("9ehao.com")!=-1||URL.indexOf("dijiaxia.com")!=-1||URL.indexOf("unss.net")!=-1||URL.indexOf("nfmovies.com")!=-1||URL.indexOf("hanmiys.com")!=-1||URL.indexOf("cvcv.tv")!=-1||URL.indexOf("30dian.cn")!=-1||URL.indexOf("meijuchong.com")!=-1){
 var 分类=e2Arr(getVar("源码"),".get(ul[class~=.*?ui-content__.*?list])");
 var 线路=e2Arr(getVar("源码"),".get(ul.nav.nav-tabs li)");
 var 简介=e2Rex(getVar("源码"),".get(div[class~=.*?ui-content__detail]).t().c().get(div.col-pd.text-collapse.content).t()");
@@ -633,12 +672,20 @@ var 列表规则=".get(li)";
 var 标题规则=".get(span).t()";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
-}else if(URL.indexOf("zxzj.me")!=-1){
+}else if(URL.indexOf("zxzj.fun")!=-1){
 var 分类=e2Arr(getVar("源码"),".get(ul.stui-content__playlist)");
 var 线路=e2Arr(getVar("源码"),".get(div.stui-vodlist__head)");
 var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail)");
 var 列表规则=".get(li)";
 var 标题规则=".get(h3).t()";
+var 选集规则=".get(a).t()";
+var 选集地址规则=".get(a).a(href)";选集列表();
+}else if(URL.indexOf("kkju.cc")!=-1){
+var 分类=e2Arr(getVar("源码"),".get(ul.stui-content__playlist)");
+var 线路=e2Arr(getVar("源码"),".get(ul.dropdown-menu li)");
+var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail)");
+var 列表规则=".get(li)";
+var 标题规则=".get(a).t()";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("auete.com")!=-1){
@@ -703,7 +750,7 @@ var 列表规则=".get(a)";
 var 标题规则=".t()";
 var 选集规则=".t()";
 var 选集地址规则=".a(href)";选集列表();
-}else if(URL.indexOf("cms.7a11l.cn")!=-1||URL.indexOf("vdxj.net")!=-1||URL.indexOf("jiujiukanju.com")!=-1||URL.indexOf("nkvob.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("dcds.ml")!=-1||URL.indexOf("longtengzy.cn")!=-1||URL.indexOf("msdv.cn")!=-1||URL.indexOf("dd520.cc")!=-1||URL.indexOf("meijuchong.com")!=-1){
+}else if(URL.indexOf("cms.7a11l.cn")!=-1||URL.indexOf("vdxj.net")!=-1||URL.indexOf("jiujiukanju.com")!=-1||URL.indexOf("nkvob.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("dcds.ml")!=-1||URL.indexOf("longtengzy.cn")!=-1||URL.indexOf("msdv.cn")!=-1||URL.indexOf("dd520.cc")!=-1||URL.indexOf("1080mi.com")!=-1){
 var 分类=e2Arr(getVar("源码"),".get(div.sort-item)");
 if(分类[0].length<1){
 var 分类=e2Arr(getVar("源码"),".get(div.module-list.module-player-list)");
@@ -733,6 +780,13 @@ var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("1090ys2.com")!=-1){
 var 分类=e2Arr(getVar("源码"),".get(div.stui-pannel-box.b.playlist)");
 var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail)");
+var 列表规则=".get(ul li)";
+var 标题规则=".get(h3).t()";
+var 选集规则=".get(a).t()";
+var 选集地址规则=".get(a).a(href)";选集列表();
+}else if(URL.indexOf("ekvod.com")!=-1){
+var 分类=e2Arr(getVar("源码"),".get(div.stui-pannel-box.b.playlist)");
+var 简介=e2Rex(getVar("源码"),".get(div.video-info-main)");
 var 列表规则=".get(ul li)";
 var 标题规则=".get(h3).t()";
 var 选集规则=".get(a).t()";
@@ -838,17 +892,15 @@ items.push(play_);
 res.data=items;
 return JSON.stringify(res);
 }
-if(URL.indexOf("duboku.fun")!=-1||URL.indexOf("ikan6.vip")!=-1||URL.indexOf("cokemv.me")!=-1||URL.indexOf("447k.com")!=-1||URL.indexOf("tvyb02.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("zhenbuka3.com")!=-1||URL.indexOf("bukaivip.com")!=-1||URL.indexOf("flvweb.com")!=-1||URL.indexOf("9ehao.com")!=-1||URL.indexOf("dijiaxia.com")!=-1||URL.indexOf("unss.net")!=-1||URL.indexOf("nfmovies.com")!=-1||URL.indexOf("hanmiys.com")!=-1||URL.indexOf("cvcv.tv")!=-1||URL.indexOf("gimy.app")!=-1||URL.indexOf("30dian.cn")!=-1){
-    if(URL.indexOf("yingkuya.com")!=-1){
-    var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");
-    }else if(URL.indexOf("gimy.app")!=-1){
+if(URL.indexOf("duboku.fun")!=-1||URL.indexOf("ikan6.vip")!=-1||URL.indexOf("cokemv.me")!=-1||URL.indexOf("447k.com")!=-1||URL.indexOf("tvyb02.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("zhenbuka3.com")!=-1||URL.indexOf("bukaivip.com")!=-1||URL.indexOf("flvweb.com")!=-1||URL.indexOf("9ehao.com")!=-1||URL.indexOf("dijiaxia.com")!=-1||URL.indexOf("unss.net")!=-1||URL.indexOf("nfmovies.com")!=-1||URL.indexOf("hanmiys.com")!=-1||URL.indexOf("cvcv.tv")!=-1||URL.indexOf("gimy.app")!=-1||URL.indexOf("30dian.cn")!=-1||URL.indexOf("meijuchong.com")!=-1){
+    if(URL.indexOf("gimy.app")!=-1){
     var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-3 col-xs-4])");
     }else{
     var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-4 col-xs-3])");
     }
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";
 普通列表();
-}else if(URL.indexOf("cms.7a11l.cn")!=-1||URL.indexOf("vdxj.net")!=-1||URL.indexOf("jiujiukanju.com")!=-1||URL.indexOf("nkvob.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("dcds.ml")!=-1||URL.indexOf("longtengzy.cn")!=-1||URL.indexOf("msdv.cn")!=-1||URL.indexOf("dd520.cc")!=-1||URL.indexOf("meijuchong.com")!=-1){
+}else if(URL.indexOf("cms.7a11l.cn")!=-1||URL.indexOf("vdxj.net")!=-1||URL.indexOf("jiujiukanju.com")!=-1||URL.indexOf("nkvob.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("dcds.ml")!=-1||URL.indexOf("longtengzy.cn")!=-1||URL.indexOf("msdv.cn")!=-1||URL.indexOf("dd520.cc")!=-1||URL.indexOf("1080mi.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(div.module-item)");
 var 标题规则=".get(div.video-name a).t()";var 地址规则=".get(div.video-name a).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".get(div.module-item-text).t().c().get(span).st().t()";
 普通列表();
@@ -889,9 +941,9 @@ var 标题规则=".get(h3 a).t()";var 地址规则=".get(h3 a).a(href)";var 图�
 }else if(URL.indexOf("niumatv.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(div.lists-content li)");
 var 标题规则=".get(h2 a).t()";var 地址规则=".get(h2 a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";普通列表();
-}else if(URL.indexOf("zxzj.me")!=-1){
+}else if(URL.indexOf("zxzj.fun")!=-1||URL.indexOf("ekvod.com")!=-1||URL.indexOf("kkju.cc")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");
-var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";普通列表();
+var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";普通列表();
 }else if(URL.indexOf("auete.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(ul.threadlist li)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(button).st().t().c().get(p).t()";普通列表();
@@ -1011,7 +1063,7 @@ items.push(play_);
 res.data=items;
 return JSON.stringify(res);
 }
-if(baseURL.indexOf("zxzj.me")!=-1||baseURL.indexOf("447k.com")!=-1||baseURL.indexOf("nfmovies.com")!=-1||baseURL.indexOf("hanmiys.com")!=-1){
+if(baseURL.indexOf("zxzj.fun")!=-1||baseURL.indexOf("447k.com")!=-1||baseURL.indexOf("nfmovies.com")!=-1||baseURL.indexOf("hanmiys.com")!=-1||baseURL.indexOf("meijuchong.com")!=-1){
 if(baseURL.indexOf("447k.com")!=-1){
 var URL=baseURL+"/search/-------------.html?wd="+KEY+"&submit=";
 }else if(baseURL.indexOf("nfmovies.com")!=-1){
@@ -1028,7 +1080,7 @@ var 源码=JZ(JSON.stringify({url:URL,head:{"User-Agent":UA,"Cookie":COOKIE+";"+
 }else{
 var 源码=getHttp(JSON.stringify({url:URL}));
 }
-if(baseURL.indexOf("zxzj.me")!=-1){
+if(baseURL.indexOf("zxzj.fun")!=-1){
 var 列表=e2Arr(源码,".get(ul[class~=ui-vodlist] li)");
 }else{
 var 列表=e2Arr(源码,".get(ul[class~=ui-vodlist__media] li)");
@@ -1158,6 +1210,24 @@ var 标题规则=".get(a).a(title)";
 var 地址规则=".get(a).a(href)";
 var 图片规则=".get(img).a(src)";
 var 简介规则=".get(span).st().t().c().get(p).st().t()";搜索列表();
+}else if(baseURL.indexOf("ekvod.com")!=-1){
+var URL=baseURL+"/vodsearch/-------------/";
+var 总源码=JZ(JSON.stringify({url:URL,post:{'wd':KEY}}));
+var 源码=总源码.code;
+var 列表=e2Arr(源码,".get(ul.stui-vodlist li)");
+var 标题规则=".get(a).a(title)";
+var 地址规则=".get(a).a(href)";
+var 图片规则=".get(a).a(data-original)";
+var 简介规则=".get(span).st().t()";搜索列表();
+}else if(baseURL.indexOf("kkju.cc")!=-1){
+var URL=baseURL+"/search/-------------.html?wd="+KEY;
+var 总源码=JZ(JSON.stringify({url:URL}));
+var 源码=总源码.code;
+var 列表=e2Arr(源码,".get(ul.stui-vodlist li)");
+var 标题规则=".get(a).a(title)";
+var 地址规则=".get(a).a(href)";
+var 图片规则=".get(a).a(data-original)";
+var 简介规则=".get(span).st().t()";搜索列表();
 }else if(baseURL.indexOf("moyuyingshi.com")!=-1){
 var URL=baseURL+"/vodsearch/-------------/?wd="+KEY;
 var 总源码=JZ(JSON.stringify({url:URL}));
@@ -1167,17 +1237,17 @@ var 标题规则=".get(a.dc-bold).t()";
 var 地址规则=".get(a.dc-bold).a(href)";
 var 图片规则=".get(img).a(data-src)";
 var 简介规则=".get(span).st().t()";搜索列表();
-}else if(baseURL.indexOf("cms.7a11l.cn")!=-1||baseURL.indexOf("vdxj.net")!=-1||baseURL.indexOf("jiujiukanju.com")!=-1||baseURL.indexOf("hszbj.net")!=-1||baseURL.indexOf("dcds.ml")!=-1||baseURL.indexOf("longtengzy.cn")!=-1||baseURL.indexOf("msdv.cn")!=-1||baseURL.indexOf("meijuchong.com")!=-1){
+}else if(baseURL.indexOf("cms.7a11l.cn")!=-1||baseURL.indexOf("vdxj.net")!=-1||baseURL.indexOf("jiujiukanju.com")!=-1||baseURL.indexOf("hszbj.net")!=-1||baseURL.indexOf("dcds.ml")!=-1||baseURL.indexOf("longtengzy.cn")!=-1||baseURL.indexOf("msdv.cn")!=-1||baseURL.indexOf("1080mi.com")!=-1){
 if(baseURL.indexOf("cms.7a11l.cn")!=-1||baseURL.indexOf("hszbj.net")!=-1||baseURL.indexOf("longtengzy.cn")!=-1||baseURL.indexOf("msdv.cn")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
 }else if(baseURL.indexOf("vdxj.net")!=-1){
 var URL=baseURL+"/vodsearch/-------------/?wd="+KEY;
-}else if(baseURL.indexOf("meijuchong.com")!=-1){
-    var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY;
 }else if(baseURL.indexOf("jiujiukanju.com")!=-1){
 var URL=baseURL+"/search?wd="+KEY;
 }else if(baseURL.indexOf("dcds.ml")!=-1){
 var URL=baseURL+"/vodsearch/1.html?wd="+KEY;
+}else if(baseURL.indexOf("1080mi.com")!=-1){
+var URL=baseURL+"/v_search/-------------.html?wd="+KEY;
 }
 var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=e2Arr(源码,".get(div.module-search-item)");
