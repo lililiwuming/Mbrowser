@@ -161,12 +161,12 @@ if(标题=="xhzy"){
 }else if(标题.indexOf("x1play")!=-1){
   选集地址="https://play.xing1.club/dm.php?url="+选集地址;
 }else if(标题.indexOf("xfyun")!=-1){
-  选集地址="https://www.2692222.com/?url="+选集地址;
+  选集地址="https://www.baidu.com/s?wd=https://www.ml0513.com/?url="+选集地址;
 }else if(标题=="renrenmi"){
       //选集地址="http://www.1080kan.cc/jiexi/rrmi.php?url="+选集地址+'@{"Referer":"http://www.1080kan.cc/"}';
       //选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
       //选集地址="https://sudu.renrenmi.cc:2021/ku/?url="+选集地址;
-      选集地址="https://supervip.rongxingvr.cn:8866/api/?key=AngnmipM4u7BECCcjq&url="+选集地址;
+      选集地址="https://jiexi.astv.vip/home/api?type=ys&uid=1&key=free&url="+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
       选集地址="https://jx.fqzy.cc/jx.php?url="+选集地址;
 }else if(标题=='dym3'){
@@ -178,7 +178,7 @@ if(标题=="xhzy"){
 }else if(URL.indexOf('zy.7kjx.com')!=-1){
       选集地址="https://jx.xmflv.vip/?url="+选集地址;
 }else if(标题.indexOf('leduo')!=-1){
-      选集地址="https://api.xxctzy.com/1.php?vid="+选集地址;
+      选集地址="https://api.ldjx.cc/wp-api/ifr.php?vid="+选集地址;
 }else if(标题.indexOf("mengxin")!=-1){
       选集地址="https://jx3.bifenvip.com/?url="+选集地址;
 }else if(标题.indexOf("aly")!=-1){
@@ -191,7 +191,7 @@ if(标题=="xhzy"){
       选集地址="http://1090ys2.com/x2.php?id="+选集地址+'@{"Referer":"http://1090ys2.com/"}';
 }else if(URL.indexOf('tvyb02.com')!=-1||URL.indexOf('zy.vodcdn.top')!=-1){
       if(标题=='hkm3u8'){
-      选集地址="https://pl.tcc-interiors.com/hls/"+选集地址+'@{"referer":"http://www.tvyb02.com/"}';
+      选集地址="https://jxn.dxsdkw.cn/jm/x2.php?id="+选集地址+'@{"referer":"http://www.tvyb02.com/"}';
       }else if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
       选集地址="https://www.baidu.com/s?wd="+选集地址;
       }else if(标题=='banyun'||标题=='yunbo'){
@@ -351,6 +351,8 @@ var $ds = playurl.split('|');
 var str = decrypt($ds[2], $ds[1], $ds[0]);
 var urlObj = JSON.parse(str);
 JSON.stringify({url:urlObj[0].url});
+}else if(playurl.indexOf("www.ml0513.com/?url=")!=-1){
+"web="+playurl+'@{"Referer":"https://www.siguyy.net/"}';
 }else if(playurl.indexOf("https://www.baidu.com")!=-1){
 //解密
 function v_decrypt(data,token_key,token_iv) {
@@ -369,7 +371,7 @@ var key_token = CryptoJS.enc.Utf8.parse("b9kfPepZc6mI7Ry7");
 var 加密链接=resp.code.match(/getVideoInfo.+?"(.+?)"/)[1];
 var realurl=getVideoInfo(加密链接);
 JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.juhaokan.cc/"}});
-}else if(playurl.indexOf("duoduozy.com")!=-1){
+}else if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("m3u8.cache.suoyo.cc")!=-1){
 var uuu="https://bo.movie06.com/ddplay/play.php?url="+playurl;
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
@@ -407,7 +409,7 @@ JSON.stringify({url:realurl});
 "web=http://1.117.152.239:39000/?url="+playurl.split("url=")[1];
 }
 }else{
-JSON.stringify({url:playurl});
+JSON.stringify({url:playurl,head:{"User-Agent":"Lavf/58.12.100","Connection":"close"}});
 }
 }else if(uu.indexOf("?u=http")!=-1||uu.indexOf("url=")!=-1||uu.indexOf("v=http")!=-1||uu.indexOf("json.php?id=")!=-1){
 var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA,"Cookie":COOKIE}}));
