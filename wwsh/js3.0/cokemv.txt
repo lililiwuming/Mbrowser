@@ -1,6 +1,6 @@
 {
 "title":"COKEMV影视",
-"首页地址":'getVar("baseURL")+"/";',
+"首页地址":'getVar("baseURL")+"/label/new.html";',
 "baseURL":'"https://cokemv.me";',
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cokemv.png",
 "分类地址":'getVar("baseURL")+"/vodshow/分类--------翻页---.html";',
