@@ -1,11 +1,21 @@
 var URL=getVar("url");
 function 头部导航(){
 var res={};var items=[];
+if(列表){
 for(var j=0;j<列表.length;j++){
      var 标题=e2Rex(列表[j],标题规则)?e2Rex(列表[j],标题规则):e2Rex(列表[j],标题规则1);
      var 地址=e2Rex(列表[j],地址规则);
      分类地址=URL+前+地址+后;
      items.push({title:标题,url:分类地址});
+}
+}else{
+    var 自定义数据="电影=1+电视剧=2+综艺=3+动漫=4+动作片=6+喜剧片=7+爱情片=8+科幻片=9+恐怖片=10+剧情片=11+国产剧=13+港台剧=14+日韩剧=15+欧美剧=16";
+    var Arr=自定义数据.split("+");
+    for(var i in Arr){
+          var 标题=Arr[i].split("=")[0];var 地址=Arr[i].split("=")[1];
+          分类地址=URL+前+地址+后;
+     items.push({title:标题,url:分类地址});
+    }
 }
 res.data=items;
 return JSON.stringify(res);
@@ -23,7 +33,11 @@ var 列表=e2Arr(源码,".json(class)");
 var 标题规则=".json(type_name)";var 地址规则=".json(type_id)";var 前="&ac=videolist&pg=#PN#&t=";var 后="";头部导航();      
 }else{
 var 列表=e2Arr(源码.replace(/<.*?>/g,""),".json(class)");
+if(列表){
 var 标题规则=".json(type_name)";var 标题规则1=".json(type_title)";var 地址规则=".json(type_id)";var 前="?ac=videolist&pg=#PN#&t=";var 后="";头部导航();
+}else{
+var 前="?ac=videolist&pg=#PN#&t=";var 后="";头部导航();
+}
 }
 ######通用列表
 var baseURL=getVar("url").split(/[?&]ac=videolist/)[0];
@@ -120,6 +134,14 @@ if(标题=="xhzy"){
       选集地址="https://www.xinlangjiexi.com/m3u8/?url="+选集地址;
       }else{
       选集地址=选集地址;
+      }
+}else if(URL.indexOf("yanaifei.cn")!=-1){
+      if(标题=="VIP"){
+      选集地址="https://newtv.yanaifei.cn/jx/pjx.php?pid="+选集地址;  
+      }else if(标题=="VIP3"){
+      选集地址="http://www.yanaifei.cn/addons/dplayer/rrjx.php?fid="+选集地址;
+      }else{
+      选集地址="http://www.yanaifei.cn/addons/dplayer/ddjx.php?url="+选集地址;
       }
 }else if(URL.indexOf("apicdn.vipm3u8.com")!=-1){
       选集地址="https://player.vipparsing.com/player?token=4732bUERfVb60lWNSLrsd5-2s1r70KeA89C3VwrGYYdByboQT9o4OzxIr5-8/cX9-sO6&vid="+选集地址;
@@ -442,7 +464,7 @@ JSON.stringify({url:realurl});
 }else{
 JSON.stringify({url:playurl,head:{"User-Agent":"Lavf/58.12.100","Connection":"close"}});
 }
-}else if(uu.indexOf("?u=http")!=-1||uu.indexOf("url=")!=-1||uu.indexOf("v=http")!=-1||uu.indexOf("json.php?id=")!=-1){
+}else if(uu.indexOf("php?pid=")!=-1||uu.indexOf("?u=http")!=-1||uu.indexOf("url=")!=-1||uu.indexOf("v=http")!=-1||uu.indexOf("json.php?id=")!=-1){
 var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA,"Cookie":COOKIE}}));
 if(resp.code.indexOf("<html")!=-1){
 if(resp.code.search(/<div id="video"/)!=-1||resp.code.search(/<div id="[^"]*?player"/)!=-1||resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<video[\s\S]*?src="[^"]+?"/)!=-1){
@@ -476,7 +498,7 @@ JSON.stringify({url:uu+"?type=.m3u8"});
 }
 }else{
 if(e2Rex(resp.code,".json(url)").length>1){
-var playurl=JSON.parse(resp.code).url;
+var playurl=e2Rex(resp.code,".json(url)");
 if(playurl.indexOf(".titan.mgtv.com")!=-1){
 JSON.stringify({url:playurl,head:{"User-Agent":UA,"Referer":""}});
 }else{

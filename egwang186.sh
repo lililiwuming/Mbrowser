@@ -3,8 +3,8 @@ cd $HOME/work/egwang186
 wget -O ./zycj/总代码.txt https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zywcj/总代码.txt
 wget -O ./zycj/资源网采集.txt https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zywcj/资源网采集.txt
 
-wget -O ./wwsh/js2.0/首页.txt https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/万物生-首页.txt
-wget -O ./wwsh/js2.0/总代码.txt https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/总代码.txt
+# wget -O ./wwsh/js2.0/首页.txt https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/万物生-首页.txt
+# wget -O ./wwsh/js2.0/总代码.txt https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/总代码.txt
 
 wget -O ./wwsh/js3.0/首页.txt https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/首页.js
 wget -O ./wwsh/js3.0/总代码.txt https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/总代码.js
