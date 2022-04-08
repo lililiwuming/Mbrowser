@@ -1,0 +1,11 @@
+P 家客用默认无线网络名称：CMCC-6EKp
+欢认元接网络空明（WPAPSKMP2. PSK :gk27715y
+设音标识号◇808078-ZTEGCAC4ADA7
+设备类型中国移动智能家庭网关类型三設备型： zXHN F663NV3a
+欢认体属配宣地址，192.168.1.1
+默认终端配重帐号： user 
+默认终端配置电码：QXe4H%Cu 
+2019/12产品名称吉比特无源光纤接入用户阔设备（ GPON ONU )口产品型号 ZXHN F663NV3a中通讯設份有限公司 ZTE 电源额定值：12Vm1A CMIT ID :2019OP0509
+
+
+ssid1=CMCC-6EKp&wifipwd=gk277t5y&username=user&userpwd=QXe4H%Cu&model=model3&sn=ZTEGCAC4ADA7&ip=192.168.1.1&vendor=ZTE&productname=F663NV3a&date=201912
