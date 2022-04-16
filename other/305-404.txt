@@ -1,5 +1,5 @@
 P 家客用默认无线网络名称：CMCC-6EKp
-欢认元接网络空明（WPAPSKMP2. PSK :gk27715y
+欢认元接网络空明（WPAPSKMP2. PSK :gk277t5y
 设音标识号◇808078-ZTEGCAC4ADA7
 设备类型中国移动智能家庭网关类型三設备型： zXHN F663NV3a
 欢认体属配宣地址，192.168.1.1
