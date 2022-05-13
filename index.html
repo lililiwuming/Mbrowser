@@ -11,8 +11,10 @@
 <script>
 var apiArray=[
 "https://jx.m3u8.tv/jiexi/?url=",
-"https://b.sigu.tv/api/type/?key=b08DPxVf9MCYrAX8fP&url=",
+"https://vip.kkflv.net/api/?url=",
+"https://79zzc.xyz/dmplayer/?url=",
 "https://api.aoteman.tv/?url=",
+"https://api.jhdyw.vip/jhcs/bfq/?url=",
 "https://jx.973973.xyz/?url=",
 "https://jsap.attakids.com/?url=",
 "https://www.h8jx.com/jiexi.php?url=",
@@ -30,7 +32,7 @@ var origin=document.location.href.split("url=")[1];
 var iframeHtml="";
 for(var i=0;i<apiArray.length;i++){
 var URL=apiArray[i]+origin;
-iframeHtml=iframeHtml+"<iframe sandbox='allow-scripts allow-same-origin allow-forms' frameborder='0' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' src="+URL+"></iframe>";
+iframeHtml=iframeHtml+"<iframe sandbox='allow-scripts allow-same-origin allow-forms' frameborder='0' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' referrerpolicy='no-referrer-when-downgrade' src="+URL+"></iframe>";
 }
 document.write(iframeHtml);
 </script>
