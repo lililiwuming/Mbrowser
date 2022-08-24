@@ -1,0 +1,334 @@
+秋葵：
+{"code":200,"rescont":{"image":["http:\/\/image.ytbohao.com\/storage\/"],"fiction":["http:\/\/liulianshipin17.xyz\/"],"comics":["http:\/\/liulianshipin16.xyz\/"],"video":["https:\/\/fshandcalligraphypa.com\/api\/index.m3u8?m3u8=https:\/\/www.hfkuangshanche.com\/"],"m3u8Key":["https:\/\/qdbangyou.com"],"api":["https:\/\/fsfarlingtonqiwellness.com","https:\/\/fsfcjanaturalbuilding.com","https:\/\/ewgabrielaconstantine.com"],"community":["http:\/\/gycwsjs.com"],"m3u8":["https:\/\/powsun-tech.net"],"base64":["https:\/\/hushikaoshicn.com\/"],"com_base64":["https:\/\/hushikaoshicn.com\/"]},"msg":""}
+
+榴莲：
+{"code":200,"rescont":{"image":["http:\/\/image.ytbohao.com\/storage\/"],"fiction":["http:\/\/liulianshipin106.com\/"],"comics":["http:\/\/liulianshipin105.com\/"],"community":["http:\/\/gycwsjs.com"],"video":["https:\/\/liulianshipin100.com\/api\/index.m3u8?m3u8=https:\/\/sz-weiteng.com\/"],"m3u8Key":["https:\/\/www.henghandianzi.com"],"api":["https:\/\/liulianshipin100.com","https:\/\/liulianshipin101.com","https:\/\/liulianshipin102.com","https:\/\/liulianshipin103.com"],"m3u8":["https:\/\/xdbj666.com"],"base64":["https:\/\/hushikaoshicn.com\/"],"com_base64":["https:\/\/hushikaoshicn.com\/"]},"msg":""}
+
+向日葵：
+{"code":200,"rescont":{"api":["https:\/\/api.xrkdd4.xyz"],"image":["https:\/\/image.hannlin.com\/storage\/"],"base64":["https:\/\/cdn.zlqly.net\/base64\/"],"video":["https:\/\/cdn.schgdx.com"],"video_image":["https:\/\/cdn.schgdx.com"]},"msg":""}
+
+丝瓜：
+{"code":200,"rescont":{"api":["https:\/\/api.sgdd4.xyz"],"image":["https:\/\/image.hannlin.com\/storage\/"],"base64":["https:\/\/cdn.zlqly.net\/base64\/"],"video":["https:\/\/cdn.fululai.com"],"video_image":["https:\/\/cdn.fululai.com"]},"msg":""}
+
+
+
+
+小蝌蚪
+http://dianxianhongqiao.com//api/v2/domains?time=1661330088&uuid=6cb0077cb74f71c9&device=0&signature=cf2bc13caaaff97afd596d1c65e18ea0
+
+{
+  "code": 200,
+  "rescont": {
+    "image": [
+      "http://image.ytbohao.com/storage/"
+    ],
+    "api": [
+      "https://chaopen97.com",
+      "https://x-iaok-d55.com",
+      "https://xiao-k-d66.com",
+      "https://xiaokd88.com",
+      "https://xiao--77.com"
+    ],
+    "video": [
+      "https://xiaokd88.com/api/index.m3u8?m3u8\u003dhttps://www.cljcqzz.com/"
+    ],
+    "fiction": [
+      "http://liulianshipin17.xyz/"
+    ],
+    "comics": [
+      "http://liulianshipin16.xyz/"
+    ],
+    "m3u8Key": [
+      "https://vijkg.com"
+    ],
+    "m3u8": [
+      "https://pvlzb.com"
+    ],
+    "community": [
+      "https://gycwsjs.com"
+    ],
+    "base64": [
+      "https://lyvrc.com/"
+    ],
+    "com_base64": [
+      "https://lyvrc.com"
+    ]
+  },
+  "msg": ""
+}
+https://chaopen97.com/api/v3/change/1598078308?table=videos&limit=1000&uuid=6cb0077cb74f71c9&device=0&time=1661330089&signature=1fc77645ecceb478e5e987485bc6b271
+https://chaopen97.com/api/v3/change/1598078308?table=video_indices&limit=1000&uuid=6cb0077cb74f71c9&device=0&time=1661330097&signature=f0ddf3608dc05855089e5051d6ae91e0
+https://chaopen97.com/api/v3/change/1598078308?table=video_topic_lists&limit=1000&uuid=6cb0077cb74f71c9&device=0&time=1661330098&signature=7860de5a2cf188ebf86c34fc3c7f7515
+https://chaopen97.com/api/v3/change/1598078308?table=video_play_views&limit=1000&uuid=6cb0077cb74f71c9&device=0&time=1661330104&signature=1713cfdb00ef846fc93b7071fcbf3411
+https://chaopen97.com/api/v3/change/1598078308?table=video_play_views&limit=1000&uuid=6cb0077cb74f71c9&device=0&time=1661330104&signature=1713cfdb00ef846fc93b7071fcbf3411
+https://chaopen97.com/api/v2/videoplay/10210?uuid=6cb0077cb74f71c9&device=0&time=1661330119&signature=60765f3fb464d6ec3e6518c41e31aab4
+结果:
+{
+  "code": 200,
+  "rescont": {
+    "videopath": "https://yunyi668.com/one/20200611/dH4QjLYU/index.m3u8"
+  },
+  "msg": ""
+}
+
+https://xiaokd88.com/api/index.m3u8?m3u8=https://www.cljcqzz.com//one/20200611/dH4QjLYU/index.m3u8
+
+
+xrk：
+https://api.xrkbe2.xyz/api/v2/domains/?device=0&time=1661331818&uuid=6cb0077cb74f71c9&signature=484137b28c3ad3565465bf6d16cddcb6
+{
+  "code": 200,
+  "rescont": {
+    "api": [
+      "https://api.xrkdd4.xyz"
+    ],
+    "image": [
+      "https://image.hannlin.com/storage/"
+    ],
+    "base64": [
+      "https://cdn.zlqly.net/base64/"
+    ],
+    "video": [
+      "https://cdn.schgdx.com"
+    ],
+    "video_image": [
+      "https://cdn.schgdx.com"
+    ]
+  },
+  "msg": ""
+}
+
+https://api.xrkdd4.xyz/api/v3/change/1617693883?device=0&time=1661331818&uuid=6cb0077cb74f71c9&signature=1baccfb6eb1b1f971e52b916684adcb4&table=videos
+
+https://api.xrkdd4.xyz/api/v3/change/1617693883?device=0&time=1661331820&uuid=6cb0077cb74f71c9&signature=3ba511a9fcec6f8f9fac2b45c8281b55&table=video_sorts
+
+https://api.xrkdd4.xyz/api/v3/change/1617693883?device=0&time=1661331821&uuid=6cb0077cb74f71c9&signature=b6fa7246fc359a4b8495da481b85a676&table=video_topic_lists
+
+https://api.xrkdd4.xyz/api/v3/change/1617693883?device=0&time=1661331821&uuid=6cb0077cb74f71c9&signature=c49649aef5250abe7aea8f20518d647e&table=video_topics
+
+https://api.xrkdd4.xyz/api/v3/change/1617693883?device=0&time=1661331821&uuid=6cb0077cb74f71c9&signature=7f4216ac2c6285ffed09e432235118c1&table=video_play_views
+
+https://api.xrkdd4.xyz/api/v3/change/1625560973?device=0&time=1661331823&uuid=6cb0077cb74f71c9&signature=85b5bd15f69567c0a48e888bf19b046b&table=videos
+
+https://api.xrkdd4.xyz/api/v3/change/1617693883?device=0&time=1661331824&uuid=6cb0077cb74f71c9&signature=cb8c074486966baa8b0227345e25d4e6&table=video_indices
+
+https://api.xrkdd4.xyz/api/artistvideo?artistId=5097&uuid=6cb0077cb74f71c9&device=0
+
+
+https://api.xrkdd4.xyz/api/videoplay/13442?uuid=6cb0077cb74f71c9&device=0
+{
+  "code": 200,
+  "rescont": {
+    "id": 13442,
+    "sort_id": 1,
+    "title": "【无码】美少女中出日记 CWPBD-64美少女中出高潮内射",
+    "pageviews": 4747305,
+    "playtimes": "1:41:49",
+    "videopath": "https://0701.9ican.com/videos/202010/hls/24418dea-63f1-483f-917c-31a1549c3f85/index.m3u8?id\u003d13442\u0026sign\u003d4e540c9cd2febb3ec0fbe5adda6f0e00\u0026t\u003d1661331600",
+    "created_at": "2020-03-28 12:23:33",
+    "updated_at": "2020-12-30 16:37:13",
+    "uuid": "24418dea-63f1-483f-917c-31a1549c3f85",
+    "labls": [
+      {
+        "id": 15,
+        "name": "中出"
+      },
+      {
+        "id": 27,
+        "name": "内射"
+      },
+      {
+        "id": 30,
+        "name": "美少女"
+      },
+      {
+        "id": 43,
+        "name": "高潮"
+      }
+    ],
+    "introduction": "【无码】美少女中出日记 CWPBD-64美少女中出高潮内射",
+    "is_like": 0,
+    "coverbase64": {
+      "url": "https://0701.9ican.com/videos/202010/covers/24418dea-63f1-483f-917c-31a1549c3f85",
+      "type": "image/jpeg"
+    }
+  },
+  "msg": ""
+}
+
+https://cdn.schgdx.com/videos/202010/hls/24418dea-63f1-483f-917c-31a1549c3f85/index.m3u8?id=13442&sign=4e540c9cd2febb3ec0fbe5adda6f0e00&t=1661331600
+
+直播：
+http://api.hclyz.com:81/mf/json.txt
+
+榴莲：
+https://liulianshipin100.com//api/v2/domains?time=1661334005&uuid=6cb0077cb74f71c9&device=0&signature=936aa62a98c826722dd340e2b7ef90aa
+{
+  "code": 200,
+  "rescont": {
+    "image": [
+      "http://image.ytbohao.com/storage/"
+    ],
+    "fiction": [
+      "http://liulianshipin106.com/"
+    ],
+    "comics": [
+      "http://liulianshipin105.com/"
+    ],
+    "community": [
+      "http://gycwsjs.com"
+    ],
+    "video": [
+      "https://liulianshipin100.com/api/index.m3u8?m3u8\u003dhttps://sz-weiteng.com/"
+    ],
+    "m3u8Key": [
+      "https://www.henghandianzi.com"
+    ],
+    "api": [
+      "https://liulianshipin100.com",
+      "https://liulianshipin101.com",
+      "https://liulianshipin102.com",
+      "https://liulianshipin103.com"
+    ],
+    "m3u8": [
+      "https://xdbj666.com"
+    ],
+    "base64": [
+      "https://lyvrc.com/"
+    ],
+    "com_base64": [
+      "https://lyvrc.com"
+    ]
+  },
+  "msg": ""
+}
+https://liulianshipin100.com/api/v3/change/1646977969?table=videos&limit=500&uuid=6cb0077cb74f71c9&device=0&time=1661334007&signature=334cd06fda17f659f11de4286e2ecc4a
+https://liulianshipin100.com/api/v3/change/1633756154?table=video_indices&limit=500&uuid=6cb0077cb74f71c9&device=0&time=1661334009&signature=4aacd79fa8acb50b6f78bf7e00cfa4b6
+https://liulianshipin100.com/api/v3/change/1646977972?table=video_topic_lists&limit=500&uuid=6cb0077cb74f71c9&device=0&time=1661334009&signature=411059f68eca57ce359ef849b2ac2f24
+https://liulianshipin100.com/api/v3/change/1642659362?table=video_topics&limit=500&uuid=6cb0077cb74f71c9&device=0&time=1661334011&signature=f7f685151b8eba26d40960ab4d2b692b
+https://liulianshipin100.com/api/v3/change/1628224640?table=video_owners&limit=500&uuid=6cb0077cb74f71c9&device=0&time=1661334011&signature=a7fb8bf28736cea98f96afe516c378af
+https://liulianshipin100.com/api/v2/videoplay/27462?uuid=6cb0077cb74f71c9&device=0&time=1661334024&signature=356d5765c9e0657a1dec82fe174913d5
+okhttp/3.12.1
+{
+  "code": 200,
+  "rescont": {
+    "videopath": "https://yuanqiplay.com/20220324/gJkn9c1R/index.m3u8"
+  },
+  "msg": ""
+}
+https://liulianshipin100.com/api/newindex.m3u8?m3u8=https://sz-weiteng.com/20220324/gJkn9c1R/index.m3u8&t=bzJJR0xxcEY4a1hselB1bVBSNHhKUT09
+
+芭乐：okhttp/13.12.0
+https://api.blaa1.xyz/api/v1/system/domain?type=1&uuid=6cb0077cb74f71c9&device=0
+{
+  "status": 200,
+  "result": "https://api.bldd4.xyz",
+  "message": "接口域名"
+}
+
+https://api.bldd4.xyz/api/v1/video/tag?uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/sort?uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/videolist?tag=%E4%BD%93%E6%B6%B2&uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/recommand?uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/videolist?tag=&uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/rank?type=views&page=1&uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/artist?uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/alltag?uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/guess?page=1&uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/18318/key?sign=b209fd5c0b4c8ad3ac873f0775d35a97&t=1661334900
+HTTP/1.1 200 OK
+Date: Wed, 24 Aug 2022 09:56:44 GMT
+Content-Type: binary/octet-stream
+Server: nginx
+Cache-Control: no-cache, private
+X-Cache: MISS from ty8-cdn198-014
+Transfer-Encoding: chunked
+Vary: Origin
+
+10
+c04c5b9fcef9bbdb
+0
+https://api.bldd4.xyz/api/v1/video/videoinfo?videoId=18318&uuid=6cb0077cb74f71c9&device=0
+{
+  "status": 200,
+  "result": {
+    "id": 18318,
+    "title": "国产麻豆AV 番外麻豆番外丝袜秘书午间的全方位服务",
+    "artist": "5000",
+    "code": null,
+    "url": "https://0705.wzqianxin.com/videos/202010/hls/7beb11ed-2af3-40fe-a081-892acf157492/index.m3u8?id\u003d18318\u0026sign\u003dca2d4713fdb3007c5481a5255e8170a3\u0026t\u003d1661334900",
+    "desc": "国产麻豆AV 番外麻豆番外丝袜秘书午间的全方位服务",
+    "image": "https://image.hannlin.com/storage/videos/202010/covers/7beb11ed-2af3-40fe-a081-892acf157492_n.jpg",
+    "sort": 58,
+    "tag": "痴女,美乳,口交,后入",
+    "views": 5675077,
+    "zans": 10706,
+    "downloads": 7503,
+    "comments": 530,
+    "barrage": 1000,
+    "vip_only": 0,
+    "is_recommend": 0,
+    "operator": null,
+    "created_at": "2021-01-04 15:10:20",
+    "updated_at": "2022-02-09 17:45:42",
+    "status": 1,
+    "sync_status": 0,
+    "ts_time": 0,
+    "short_video_path": "",
+    "uuid": "7beb11ed-2af3-40fe-a081-892acf157492",
+    "is_like": false,
+    "coverbase64": {
+      "url": "https://0705.wzqianxin.com/videos/202010/covers/7beb11ed-2af3-40fe-a081-892acf157492_n",
+      "type": "image/jpeg"
+    }
+  },
+  "message": "success"
+}
+https://0705.wzqianxin.com/videos/202010/hls/7beb11ed-2af3-40fe-a081-892acf157492/index.m3u8?id=18318&sign=ca2d4713fdb3007c5481a5255e8170a3&t=1661334900
+https://cdn.nenpian.com/videos/202010/hls/7beb11ed-2af3-40fe-a081-892acf157492/index.m3u8?id=18318&sign=ca2d4713fdb3007c5481a5255e8170a3&t=1661334900
+
+https://api.bldd4.xyz/api/v1/video/searchbywords?page=1&uuid=6cb0077cb74f71c9&device=0
+post:keyWords=%E5%90%8E%E5%85%A5
+https://api.bldd4.xyz/api/v1/video/rank?type=updated_at&page=1&uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v2/video/artist?uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/alltag?uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/rank?type=zans&page=1&uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/rank/pageviews/day?uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/rank/pageviews/week?uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/rank/pageviews/month?uuid=6cb0077cb74f71c9&device=0
+https://api.bldd4.xyz/api/v1/video/videolist?tag=%E7%97%B4%E6%B1%89&uuid=6cb0077cb74f71c9&device=0
+
+草莓：
+https://api.cmaa1.xyz/api/v2/domains/?device=0&time=1661337727&uuid=6cb0077cb74f71c9&signature=8e72ffcd7ca2b4e6b762efd70fe79936
+{
+  "code": 200,
+  "rescont": {
+    "api": [
+      "https://api.cmdd4.xyz"
+    ],
+    "image": [
+      "https://image.hannlin.com/storage/"
+    ],
+    "base64": [
+      "https://cdn.zlqly.net/base64/"
+    ],
+    "video": [
+      "https://cdn.hnlg.net"
+    ],
+    "video_image": [
+      "https://cdn.hnlg.net"
+    ]
+  },
+  "msg": ""
+}
+https://api.cmdd4.xyz/api/v3/change/1660642741?device=0&time=1661337728&uuid=6cb0077cb74f71c9&signature=fc7d9eed330506684b6499fe5442e795&table=videos
+https://api.cmdd4.xyz/api/v3/change/1656492608?device=0&time=1661337729&uuid=6cb0077cb74f71c9&signature=00c56c454d9d02feb9660b20e2522279&table=video_indices
+https://api.cmdd4.xyz/api/v3/change/1656492608?device=0&time=1661337729&uuid=6cb0077cb74f71c9&signature=5cb8d739d548d7434e35f1df5a163247&table=video_sorts
+https://api.cmdd4.xyz/api/v3/change/1657777927?device=0&time=1661337730&uuid=6cb0077cb74f71c9&signature=adfcb93cedee9dd88496e5eeadf0cb1d&table=video_topic_lists
+https://api.cmdd4.xyz/api/v3/change/1661313802?device=0&time=1661337730&uuid=6cb0077cb74f71c9&signature=ed349f21d33dd7ab02ba2fc82fe31dc4&table=video_play_views
+https://api.cmdd4.xyz/api/videoartist?uuid=6cb0077cb74f71c9&device=0
+https://api.cmdd4.xyz/api/artistvideo?artistId=12269&uuid=6cb0077cb74f71c9&device=0
+https://api.cmdd4.xyz/api/rank/pageviews/day
+https://api.cmdd4.xyz/api/rank/pageviews/week
+https://api.cmdd4.xyz/api/rank/pageviews/month
+https://api.cmdd4.xyz/api/videoplay/27760?uuid=6cb0077cb74f71c9&device=0
