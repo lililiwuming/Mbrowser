@@ -1,3 +1,15 @@
+{"code":200,"rescont":{"api":["https:\/\/api.sgdd4.xyz"],"image":["https:\/\/image.hannlin.com\/storage\/"],"base64":["https:\/\/cdn.zlqly.net\/base64\/"],"video":["https:\/\/cdn.fululai.com"],"video_image":["https:\/\/cdn.fululai.com"]},"msg":""}
+
+{"code":200,"rescont":{"api":["https:\/\/api.cmdd4.xyz"],"image":["https:\/\/image.hannlin.com\/storage\/"],"base64":["https:\/\/cdn.zlqly.net\/base64\/"],"video":["https:\/\/cdn.hnlg.net"],"video_image":["https:\/\/cdn.hnlg.net"]},"msg":""}
+
+{"code":200,"rescont":{"api":["https:\/\/api.xrkdd4.xyz"],"image":["https:\/\/image.hannlin.com\/storage\/"],"base64":["https:\/\/cdn.zlqly.net\/base64\/"],"video":["https:\/\/cdn.schgdx.com"],"video_image":["https:\/\/cdn.schgdx.com"]},"msg":""}
+
+{"code":200,"rescont":{"image":["http:\/\/image.ytbohao.com\/storage\/"],"fiction":["http:\/\/liulianshipin106.com\/"],"comics":["http:\/\/liulianshipin105.com\/"],"community":["http:\/\/gycwsjs.com"],"video":["https:\/\/liulianshipin100.com\/api\/index.m3u8?m3u8=https:\/\/sz-weiteng.com\/"],"m3u8Key":["https:\/\/www.henghandianzi.com"],"api":["https:\/\/liulianshipin100.com","https:\/\/liulianshipin101.com","https:\/\/liulianshipin102.com","https:\/\/liulianshipin103.com"],"m3u8":["https:\/\/xdbj666.com"],"base64":["https:\/\/www.vijkg.com\/"],"com_base64":["https:\/\/lyvrc.com"]},"msg":""}
+
+{"code":200,"rescont":{"image":["http:\/\/image.ytbohao.com\/storage\/"],"fiction":["http:\/\/liulianshipin17.xyz\/"],"comics":["http:\/\/liulianshipin16.xyz\/"],"video":["https:\/\/fshandcalligraphypa.com\/api\/index.m3u8?m3u8=https:\/\/www.hfkuangshanche.com\/"],"m3u8Key":["https:\/\/vijkg.com"],"api":["https:\/\/fsfarlingtonqiwellness.com","https:\/\/fsfcjanaturalbuilding.com","https:\/\/ewgabrielaconstantine.com"],"community":["http:\/\/gycwsjs.com"],"m3u8":["https:\/\/kvmnb.com"],"base64":["https:\/\/www.vijkg.com\/"],"com_base64":["https:\/\/lyvrc.com"]},"msg":""}
+
+{"code":200,"rescont":{"image":["http:\/\/image.ytbohao.com\/storage\/"],"api":["https:\/\/chaopen97.com","https:\/\/x-iaok-d55.com","https:\/\/xiao-k-d66.com","https:\/\/xiaokd88.com","https:\/\/xiao--77.com"],"video":["https:\/\/xiaokd88.com\/api\/index.m3u8?m3u8=https:\/\/www.cljcqzz.com\/"],"fiction":["http:\/\/liulianshipin17.xyz\/"],"comics":["http:\/\/liulianshipin16.xyz\/"],"m3u8Key":["https:\/\/vijkg.com"],"m3u8":["https:\/\/pvlzb.com"],"community":["https:\/\/gycwsjs.com"],"base64":["https:\/\/www.vijkg.com\/"],"com_base64":["https:\/\/lyvrc.com"]},"msg":""}
+
 https://www.xv01-app.com/
 
 Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 XXXAndroidApp/0.29)
