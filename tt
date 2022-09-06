@@ -1,0 +1,98 @@
+commit 100e86d61d165410e3716d158ef1393937e19bf4
+Author: lililiwuming <62045515+lililiwuming@users.noreply.github.com>
+Date:   Tue Sep 6 03:58:07 2022 +0800
+
+    check.sh up
+
+diff --git a/mqz/domain1.txt b/mqz/domain1.txt
+new file mode 100644
+index 0000000..0c54dc6
+--- /dev/null
++++ b/mqz/domain1.txt
+@@ -0,0 +1,66 @@
++https://www.xv01-app.com/
++
++Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 XXXAndroidApp/0.29)
++
++policyref="/p3p.xml", CP="NOI CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT"
++
++cit=7cc03e6175779413dMnlIqn9G2PPIdO3vwCfVg%3D%3D; expires=Sun, 04-Dec-2022 18:40:05 GMT; Max-Age=7776000; path=/; domain=.xv01-app.com
++session_token=b38e9b8bd0ab0c71Iw1rdsUiTv5u6Yu1Rqda5VMak--J2B4EfeinWChI6mRqPG1a3rvHqi_MGiLWDM2eM8gpMTI_XWKcjdyYZ_a9pAV0UJtD6hNWr7ITM61MXag88B9FWAaIIk8Ix4GB_01Gg9lz4nHabLNv1XEFJuY7X8mCW7tjrpiFdVg4mXMo0GAqyPWeh4JgdnVgw-8N2ws6TKuiM_TfG1dlumt7WrS8pQ%3D%3D; expires=Wed, 05-Oct-2022 18:40:05 GMT; Max-Age=2592000; path=/; domain=.xv01-app.com; secure
++
++银杏https:\/\/yxspapp.com
++https://yxsp4.com/api/v2/domains?time=1662403820&uuid=6cb0077cb74f71c9&device=0&signature=44669e53d65b6ab9d9f3edd88c8f36e0
++set-cookie:
++SERVERID=be6c88704c304cb57de2ead5338987de|1662403824|1662403824;Path=/
++
++{
++  "code": 200,
++  "rescont": {
++    "video": [
++      "https://yxsp1.com/api/index.m3u8?m3u8\u003dhttps://mhzb998.com/"
++    ],
++    "image": [
++      "http://image.ytbohao.com/storage/"
++    ],
++    "api": [
++      "https://yxsp4.com",
++      "https://yxsp2.com",
++      "https://yxsp1.com",
++      "https://yxsp5.com"
++    ],
++    "fiction": [
++      "http://liulianshipin106.com/"
++    ],
++    "comics": [
++      "http://liulianshipin105.com/"
++    ],
++    "community": [
++      "http://kfjdmjg.com"
++    ],
++    "com_base64": [
++      "https://lyvrc.com"
++    ],
++    "m3u8Key": [
++      "https://www.henghandianzi.com"
++    ],
++    "m3u8": [
++      "https://xfwza.com"
++    ],
++    "base64": [
++      "https://www.vijkg.com/"
++    ]
++  },
++  "msg": ""
++}
++https://yxsp4.com/api/v3/change/1651813228?table=video_indices&limit=500&uuid=6cb0077cb74f71c9&device=0&time=1662403827&signature=9f0830893b398e89ed33bd7b379a1338
++https://yxsp4.com/api/v3/change/1659934161?table=videos&limit=500&uuid=6cb0077cb74f71c9&device=0&time=1662403822&signature=f82ac3fbaa907af068056404195c15fd
++https://yxsp4.com/api/v3/change/1657773616?table=video_sorts&limit=500&uuid=6cb0077cb74f71c9&device=0&time=1662403827&signature=4d8076b50058e88881c33bc50a28ce20
++https://yxsp4.com/api/v3/change/1659934162?table=video_topic_lists&limit=500&uuid=6cb0077cb74f71c9&device=0&time=1662403827&signature=7f0ee0629785da03d71123a86cae0a0b
++https://yxsp4.com/api/v3/change/1642659362?table=video_topics&limit=500&uuid=6cb0077cb74f71c9&device=0&time=1662403830&signature=9832ff8b8d4fe43a520505050d594af3
++https://yxsp4.com/api/v3/change/1605853987?table=video_owners&limit=500&uuid=6cb0077cb74f71c9&device=0&time=1662403830&signature=cc0de8877dc9714bb49c16adf261efd7
++
++https://yxsp2.com/api/v2/videoplay/13107?uuid=6cb0077cb74f71c9&device=0&time=1662403864&signature=8bc7a86f471119cb0cfed8756a033ff7
++https://yxsp1.com/api/newindex.m3u8?m3u8=https://mhzb998.com/20211020/cnl3U2qJ/index.m3u8&t=SXdOSE5pVzJ4Q3FhaWZXSUdJZ1k0QT09
++
++香蕉蜜桃
++https://www.mitaoapp.cc/config.php
++
+diff --git a/mqz/guaguohost b/mqz/guaguohost
+index 5b90dbb..f5592c0 100644
+--- a/mqz/guaguohost
++++ b/mqz/guaguohost
+@@ -6,4 +6,5 @@
+ #榴莲>q:guolist0?url=http://liulianshipin100.com
+ #秋葵>q:guolist0?url=https://fsfcjanaturalbuilding.com
+ #秋葵>q:guolist0?url=https://ewgabrielaconstantine.com
+-#小蝌蚪>q:guolist0?url=https://x-iaok-d55.com
+\ No newline at end of file
++#小蝌蚪>q:guolist0?url=https://x-iaok-d55.com
++#银杏>q:guolist0?url=https://yxsp4.com
+\ No newline at end of file
+diff --git a/mqz/guaguohost.md5 b/mqz/guaguohost.md5
+index 9bc6970..a9b778e 100644
+--- a/mqz/guaguohost.md5
++++ b/mqz/guaguohost.md5
+@@ -1 +1 @@
+-e00800bc4bcf4b85225a6b07d628a753  /data/data/com.termux/files/home/work/Mbrowser/mqz/guaguohost
++355cd601f8a934ad2e35b281668a935d  /data/data/com.termux/files/home/work/Mbrowser/mqz/guaguohost
