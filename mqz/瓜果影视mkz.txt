@@ -6,6 +6,6 @@
 </ul>
 <ul class="更新提示">
 <li><font color="red"><b>有新版本!!!点击安装</b></font>
-<p>mapi:qm/https://lililiwuming.github.io/Mbrowser/mqz/瓜果影视.mkz</p>
+<p>mapi:qm/https://cdn.jsdelivr.net/gh/lililiwuming/Mbrowser/mqz/瓜果影视.mkz</p>
 </li>
 </ul>
