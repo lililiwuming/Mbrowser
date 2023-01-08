@@ -1,4 +1,4 @@
-<a class="版本">221203</a>
+<a class="版本">230108</a>
 <ul class="默认提示">
 <li><font color="blue"><b>已是最新版，不能使用试试VPN</b></font>
 <p>https://t.me/joinchat/Qy2LjUcadbnKVmO8FFsBIg</p>
